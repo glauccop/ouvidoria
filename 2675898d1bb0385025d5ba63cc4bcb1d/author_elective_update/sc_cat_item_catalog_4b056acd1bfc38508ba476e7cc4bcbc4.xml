@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Fale com a Ouvidoria">0b052e8d1bfc38508ba476e7cc4bcbd3</sc_cat_item>
+        <sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 20:54:02</sys_created_on>
+        <sys_id>4b056acd1bfc38508ba476e7cc4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Fale com a Ouvidoria</sys_name>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_4b056acd1bfc38508ba476e7cc4bcbc4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 20:54:02</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</application>
+        <file_path/>
+        <instance_id>e9ee306ddb487050601a11f848961918</instance_id>
+        <instance_name>previdemo</instance_name>
+        <name>sc_cat_item_catalog_4b056acd1bfc38508ba476e7cc4bcbc4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Fale com a Ouvidoria">0b052e8d1bfc38508ba476e7cc4bcbd3</sc_cat_item><sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-15 20:54:02</sys_created_on><sys_id>4b056acd1bfc38508ba476e7cc4bcbc4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer Service.Fale com a Ouvidoria</sys_name><sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package><sys_policy/><sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope><sys_update_name>sc_cat_item_catalog_4b056acd1bfc38508ba476e7cc4bcbc4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-15 20:54:02</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>361300425</payload_hash>
+        <record_name>Customer Service.Fale com a Ouvidoria</record_name>
+        <reverted_from/>
+        <source>2275898d1bb0385025d5ba63cc4bcb20</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 20:54:02</sys_created_on>
+        <sys_id>d7056acd1bfc38508ba476e7cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a1173d9d00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 20:54:02</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>9f056acd2ffc3850c7e3cfc818f12dc7</update_guid>
+        <update_guid_history>9f056acd2ffc3850c7e3cfc818f12dc7:361300425</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Customer Service.Fale com a Ouvidoria">36ba7fcd1bf478508ba476e7cc4bcbbe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 03:08:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>04f177997ba6484f8108e728186ae069</sys_id>
+        <sys_metadata>4b056acd1bfc38508ba476e7cc4bcbc4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Fale com a Ouvidoria</sys_name>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_parent display_value="">0b052e8d1bfc38508ba476e7cc4bcbd3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_scope_delete display_value="">9cee73a325454b858227a12ea41b5b01</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_4b056acd1bfc38508ba476e7cc4bcbc4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_4b056acd1bfc38508ba476e7cc4bcbc4">d7056acd1bfc38508ba476e7cc4bcbc8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:08:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

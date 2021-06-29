@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Classificação da Demanda" section_id="9d9d01891bf0385025d5ba63cc4bcb27" sys_domain="global" table="x_snc_ouvir_caso" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:42</sys_created_on>
+            <sys_id>2cc28e511b34b8508ba476e7cc4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:42</sys_updated_on>
+            <text>Análise da Demanda</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:42</sys_created_on>
+            <sys_id>64c28e511b34b8508ba476e7cc4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:42</sys_updated_on>
+            <text>Departamentos requeridos para resposta</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_publico</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>bcc28e511b34b8508ba476e7cc4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tipo_demanda</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>38c28e511b34b8508ba476e7cc4bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>2cc28e511b34b8508ba476e7cc4bcb4a</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>bcc28e511b34b8508ba476e7cc4bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pessoa_politicamente_exposta</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>34c28e511b34b8508ba476e7cc4bcb64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_risco_imagem</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>b8c28e511b34b8508ba476e7cc4bcb64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_risco_financeiro</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>30c28e511b34b8508ba476e7cc4bcb65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>b4c28e511b34b8508ba476e7cc4bcb65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tema_demanda</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>3cc28e511b34b8508ba476e7cc4bcb65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_possivel_tratar_demanda</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>b0c28e511b34b8508ba476e7cc4bcb66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_1</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>38c28e511b34b8508ba476e7cc4bcb66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>64c28e511b34b8508ba476e7cc4bcb4b</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>bcc28e511b34b8508ba476e7cc4bcb66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_solicitados</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 13:02:43</sys_created_on>
+            <sys_id>34c28e511b34b8508ba476e7cc4bcb67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Classificação da Demanda" display_value="Classificação da Demanda" name="x_snc_ouvir_caso" sys_domain="global" view="Default view">9d9d01891bf0385025d5ba63cc4bcb27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 13:02:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Classificação da Demanda</caption>
+            <header>false</header>
+            <name>x_snc_ouvir_caso</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d9d01891bf0385025d5ba63cc4bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_ouvir_caso</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+            <sys_update_name>sys_ui_section_9d9d01891bf0385025d5ba63cc4bcb27</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

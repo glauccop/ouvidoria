@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>false</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Fale com a Ouvidoria</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=0b052e8d1bfc38508ba476e7cc4bcbd3&amp;sysparm_preview=true", "summary");</preview>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script/>
+        <short_description>Fale com a Ouvidoria</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 20:54:01</sys_created_on>
+        <sys_id>0b052e8d1bfc38508ba476e7cc4bcbd3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Fale com a Ouvidoria</sys_name>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name>sc_cat_item_producer_0b052e8d1bfc38508ba476e7cc4bcbd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:08:23</sys_updated_on>
+        <table_name>x_snc_ouvir_caso</table_name>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=0b052e8d1bfc38508ba476e7cc4bcbd3"/>
+    <fx_price action="DELETE" query="id=0b052e8d1bfc38508ba476e7cc4bcbd3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</application>
+        <file_path/>
+        <instance_id>e9ee306ddb487050601a11f848961918</instance_id>
+        <instance_name>previdemo</instance_name>
+        <name>sc_cat_item_producer_0b052e8d1bfc38508ba476e7cc4bcbd3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer"><sc_cat_item_producer action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>false</active><allow_edit>false</allow_edit><availability>on_desktop</availability><billable>false</billable><can_cancel>false</can_cancel><category/><checked_out/><cost>0</cost><custom_cart/><delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><location/><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Fale com a Ouvidoria</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>false</no_cart_v2><no_delivery_time_v2>false</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>false</no_quantity_v2><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><picture/><post_insert_script/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=0b052e8d1bfc38508ba476e7cc4bcbd3&amp;sysparm_preview=true", "summary");</preview><published_ref/><recurring_frequency/><redirect_url>generated_record</redirect_url><request_method/><roles/><save_options/><save_script/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template/><script/><short_description>Fale com a Ouvidoria</short_description><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item_producer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-15 20:54:01</sys_created_on><sys_id>0b052e8d1bfc38508ba476e7cc4bcbd3</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Fale com a Ouvidoria</sys_name><sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package><sys_policy/><sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope><sys_update_name>sc_cat_item_producer_0b052e8d1bfc38508ba476e7cc4bcbd3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-16 03:08:23</sys_updated_on><table_name>x_snc_ouvir_caso</table_name><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><view/><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item_producer><sys_translated_text action="delete_multiple" query="documentkey=0b052e8d1bfc38508ba476e7cc4bcbd3"/><fx_price action="delete_multiple" query="id=0b052e8d1bfc38508ba476e7cc4bcbd3"/></record_update>]]></payload>
+        <payload_hash>1873048453</payload_hash>
+        <record_name>Fale com a Ouvidoria</record_name>
+        <reverted_from/>
+        <source>2275898d1bb0385025d5ba63cc4bcb20</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 03:08:23</sys_created_on>
+        <sys_id>bebaffcd1bf478508ba476e7cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a12ca93e70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:08:23</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>76baffcd11f4785005f61287649b40bf</update_guid>
+        <update_guid_history>76baffcd11f4785005f61287649b40bf:1873048453,5ab5ae01af307850fb97674f8d94c275:882920037,6b05aacde2fc385009f166c8d9aad70e:-121806006,d3056acd7bfc3850038c5fa90ac45cce:1956331455</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Fale com a Ouvidoria">2bba33011b3878508ba476e7cc4bcb2d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 03:08:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>12e4c6587eed4ca994524aa2c421fe59</sys_id>
+        <sys_metadata>0b052e8d1bfc38508ba476e7cc4bcbd3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fale com a Ouvidoria</sys_name>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_parent display_value="Caso de Ouvidoria">2006c5cd1bb0385025d5ba63cc4bcb06</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_scope_delete display_value="">9cee73a325454b858227a12ea41b5b01</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_0b052e8d1bfc38508ba476e7cc4bcbd3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_0b052e8d1bfc38508ba476e7cc4bcbd3">bebaffcd1bf478508ba476e7cc4bcbbf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:08:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

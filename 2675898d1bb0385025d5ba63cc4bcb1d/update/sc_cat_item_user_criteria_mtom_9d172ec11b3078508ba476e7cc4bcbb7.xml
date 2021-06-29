@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Fale com a Ouvidoria">02152ecd1bfc38508ba476e7cc4bcbd2</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 21:02:55</sys_created_on>
+        <sys_id>9d172ec11b3078508ba476e7cc4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fale com a Ouvidoria.Users with 'sn_customerservice.customer' role</sys_name>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_9d172ec11b3078508ba476e7cc4bcbb7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 21:02:55</sys_updated_on>
+        <user_criteria display_value="Users with 'sn_customerservice.customer' role">ceada52177a000102bc4914f58106106</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

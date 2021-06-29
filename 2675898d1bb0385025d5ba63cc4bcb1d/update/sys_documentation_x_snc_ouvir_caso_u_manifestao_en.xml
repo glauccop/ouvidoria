@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_manifestao" label="Manifestação" language="en" table="x_snc_ouvir_caso">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_manifestao</element>
+            <help/>
+            <hint/>
+            <label>Manifestação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <plural>Manifestaçãos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 16:01:22</sys_created_on>
+            <sys_id>8c12e5c51b74385025d5ba63cc4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Manifestação</sys_name>
+            <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_ouvir_caso_u_manifestao_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 16:01:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

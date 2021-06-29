@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Fale com a Ouvidoria">02152ecd1bfc38508ba476e7cc4bcbd2</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 20:54:14</sys_created_on>
+        <sys_id>46152ecd1bfc38508ba476e7cc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fale com a Ouvidoria.SNC External</sys_name>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_46152ecd1bfc38508ba476e7cc4bcbd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 20:54:14</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</application>
+        <file_path/>
+        <instance_id>e9ee306ddb487050601a11f848961918</instance_id>
+        <instance_name>previdemo</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_46152ecd1bfc38508ba476e7cc4bcbd3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Fale com a Ouvidoria">02152ecd1bfc38508ba476e7cc4bcbd2</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-15 20:54:14</sys_created_on><sys_id>46152ecd1bfc38508ba476e7cc4bcbd3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fale com a Ouvidoria.SNC External</sys_name><sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package><sys_policy/><sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_46152ecd1bfc38508ba476e7cc4bcbd3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-15 20:54:14</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>1358395697</payload_hash>
+        <record_name>Fale com a Ouvidoria.SNC External</record_name>
+        <reverted_from/>
+        <source>78ccc1221b00301025d5ba63cc4bcbed</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-05-13 23:32:06</sys_created_on>
+        <sys_id>0f27eec11b3078508ba476e7cc4bcb2b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1796812b0f00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>cb27eec19f307850cfd621b6f7fefe2b</update_guid>
+        <update_guid_history>cb27eec19f307850cfd621b6f7fefe2b:1358395697</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Fale com a Ouvidoria.SNC External">4727eec11b3078508ba476e7cc4bcb2e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 21:03:19</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>0fa06b685697422085dabef574f3f591</sys_id>
+        <sys_metadata>46152ecd1bfc38508ba476e7cc4bcbd3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fale com a Ouvidoria.SNC External</sys_name>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_parent display_value="Fale com a Ouvidoria">02152ecd1bfc38508ba476e7cc4bcbd2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_scope_delete display_value="">9cee73a325454b858227a12ea41b5b01</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_46152ecd1bfc38508ba476e7cc4bcbd3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_46152ecd1bfc38508ba476e7cc4bcbd3">0f27eec11b3078508ba476e7cc4bcb2b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 21:03:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

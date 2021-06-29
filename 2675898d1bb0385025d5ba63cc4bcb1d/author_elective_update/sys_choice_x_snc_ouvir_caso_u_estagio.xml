@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_estagio" table="x_snc_ouvir_caso" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_estagio</element>
+            <name>x_snc_ouvir_caso</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 16:08:48</sys_created_on>
+            <sys_id>45c321891b74385025d5ba63cc4bcb6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_estagio</sys_name>
+            <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+            <sys_update_name>sys_choice_x_snc_ouvir_caso_u_estagio</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 16:08:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estagio</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Novo</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 16:08:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0dc321891b74385025d5ba63cc4bcb6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 16:08:48</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estagio</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Em Análise</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 16:08:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdc321891b74385025d5ba63cc4bcb6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 16:08:49</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estagio</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Coleta de Informações</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 16:08:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdc321891b74385025d5ba63cc4bcb73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 16:08:49</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estagio</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Revisão</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 16:08:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdc321891b74385025d5ba63cc4bcb77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 16:08:49</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estagio</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aprovação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 16:08:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdc321891b74385025d5ba63cc4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 16:08:49</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estagio</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Concluido</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 16:08:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdc321891b74385025d5ba63cc4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 16:08:49</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

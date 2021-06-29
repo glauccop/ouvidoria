@@ -1,0 +1,2575 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-quebec-12-09-2020__patch3-04-14-2021_04-29-2021_2308.zip</compiler_build>
+        <copied_from>aa62c3091bb078508ba476e7cc4bcb62</copied_from>
+        <copied_from_name>Ouvidoria</copied_from_name>
+        <description/>
+        <internal_name>ouvidoriaenviatarefa</internal_name>
+        <label_cache>[{"name":"Updated_1.current.u_protoloco_atendimento.number","label":"Trigger➛Caso de Ouvidoria Record➛Protocolo de Atendimento➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sn_customerservice_case","column_name":"number"},{"name":"6021bef9-ed28-4249-84c3-54c98e3ef900.Record.file_name","label":"9➛Attachment Record➛File name","reference":"","reference_display":"File name","type":"string","base_type":"string","parent_table_name":"sys_attachment","column_name":"file_name"},{"name":"6021bef9-ed28-4249-84c3-54c98e3ef900.error_message","label":"9➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"6021bef9-ed28-4249-84c3-54c98e3ef900.status","label":"9➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"6021bef9-ed28-4249-84c3-54c98e3ef900.Table","label":"9➛Attachment Table","reference":"sys_attachment","reference_display":"Attachment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6021bef9-ed28-4249-84c3-54c98e3ef900.Record","label":"9➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e8f5958-28ff-40dd-bf13-51a686065273.parameter1","label":"9➛parameter1","reference_display":"parameter1","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e8f5958-28ff-40dd-bf13-51a686065273.parameter","label":"9➛parameter","reference_display":"parameter","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_protoloco_atendimento","label":"Trigger➛Caso de Ouvidoria Record➛Protocolo de Atendimento","reference":"sn_customerservice_case","reference_display":"Case","type":"reference","base_type":"reference","parent_table_name":"x_snc_ouvir_caso","column_name":"u_protoloco_atendimento"},{"name":"cd76111e-71d0-4311-9c94-7a59b6455f48.item.name","label":"1➛User Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Updated_1.current","label":"Trigger➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.u_solicitados","label":"Trigger➛Caso de Ouvidoria Record➛Solicitados","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_snc_ouvir_caso","column_name":"u_solicitados"},{"name":"Created_1.current.u_protoloco_atendimento","label":"Trigger➛Caso de Ouvidoria Record➛Protocolo de Atendimento","reference":"sn_customerservice_case","reference_display":"Case","type":"reference","base_type":"reference","parent_table_name":"x_snc_ouvir_caso","column_name":"u_protoloco_atendimento"},{"name":"Created_1.current.number","label":"Trigger➛Caso de Ouvidoria Record➛Protocolo","reference":"","reference_display":"Protocolo","type":"string","base_type":"string","parent_table_name":"x_snc_ouvir_caso","column_name":"number"},{"name":"6908ed43-32b0-4e47-a314-e30a87a34ba2.table_name","label":"2➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6908ed43-32b0-4e47-a314-e30a87a34ba2.record","label":"2➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f97f536-30d8-46cb-9b91-c350b54006e7.Table","label":"6➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f97f536-30d8-46cb-9b91-c350b54006e7.Record","label":"6➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cd76111e-71d0-4311-9c94-7a59b6455f48.item","label":"1➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created_1.current.u_solicitados","label":"Trigger➛Caso de Ouvidoria Record➛Solicitados","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_snc_ouvir_caso","column_name":"u_solicitados"},{"name":"b69b71a5-a141-4370-80b0-b7a1d4f9b188.table_name","label":"5➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b69b71a5-a141-4370-80b0-b7a1d4f9b188.record","label":"5➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54fe09f3-34c4-4f43-a071-e0dd14401a64.record","label":"1➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54fe09f3-34c4-4f43-a071-e0dd14401a64.table_name","label":"1➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.u_manifestao","label":"Trigger➛Caso de Ouvidoria Record➛Manifestação","reference":"","reference_display":"Manifestação","type":"html","base_type":"html","parent_table_name":"x_snc_ouvir_caso","column_name":"u_manifestao"},{"name":"f1223143-b6dc-4e79-851d-212878e3377d.total_duration","label":"1➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"f1223143-b6dc-4e79-851d-212878e3377d.scheduled_end_date_time","label":"1➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"0fb14b14-2e5e-4792-8673-04bf4180ae96.record","label":"1➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0fb14b14-2e5e-4792-8673-04bf4180ae96.table_name","label":"1➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71b7855b-931f-45da-b614-74cafda833fe.state","label":"1➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"df4df40e-b705-4f12-9e74-85f378b3fdf8.record","label":"1➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df4df40e-b705-4f12-9e74-85f378b3fdf8.table_name","label":"1➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0af5e42-c1c2-4fc5-9e87-80e74a9bab71.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"85fae6d4-6885-4925-8130-9ca49384b011.record","label":"3➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"85fae6d4-6885-4925-8130-9ca49384b011.table_name","label":"3➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3fc65128-bb5c-4aaa-be5d-d56e0cd024dd.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"756cb676-6cb0-4dab-9587-e8bbd00b7a08.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.46cd276ba9fe19810024aa59b51d6ef7}}","label":"Megan Burke","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"85fae6d4-6885-4925-8130-9ca49384b011.record.sys_updated_on","label":"3➛Caso de Ouvidoria Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_ouvir_caso","column_name":"sys_updated_on"},{"name":"Created_1.current.opened_by.name","label":"Trigger➛Caso de Ouvidoria Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.u_resposta","label":"Trigger➛Caso de Ouvidoria Record➛Resposta","reference":"","reference_display":"Resposta","type":"html","base_type":"html","parent_table_name":"x_snc_ouvir_caso","column_name":"u_resposta"},{"name":"9124da18-6867-4f52-ae8a-186de53566f8.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"9124da18-6867-4f52-ae8a-186de53566f8.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"d24da0f2-9196-4c0e-9df4-8a0929450193.Records","label":"5➛Task Records","reference":"task","reference_display":"Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d24da0f2-9196-4c0e-9df4-8a0929450193.Table","label":"5➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d24da0f2-9196-4c0e-9df4-8a0929450193.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8188d6a4-833f-4d96-9064-851a5afac348.item","label":"6➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"8188d6a4-833f-4d96-9064-851a5afac348.item.state","label":"6➛Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"task","column_name":"state"},{"name":"7e23db84-dfbf-4cb2-a9da-fe7db3d9d3c7.record","label":"13➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e23db84-dfbf-4cb2-a9da-fe7db3d9d3c7.table_name","label":"13➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44f61e3d-31fe-4e8a-a421-13562a6551e6.Records","label":"7➛Task Records","reference":"task","reference_display":"Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44f61e3d-31fe-4e8a-a421-13562a6551e6.Table","label":"7➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44f61e3d-31fe-4e8a-a421-13562a6551e6.Count","label":"7➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"76f14872-b295-4229-a701-8ebad2ca4010.item","label":"12➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"51bc2713-aaeb-4e4a-91a5-69134e2f3213.parameter","label":"9➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"records"}},{"name":"51bc2713-aaeb-4e4a-91a5-69134e2f3213.parameter1","label":"9➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"8e432fdc-e834-4c84-8529-06d83cdc6048.Records","label":"9➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e432fdc-e834-4c84-8529-06d83cdc6048.Table","label":"9➛Attachment Table","reference":"sys_attachment","reference_display":"Attachment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e432fdc-e834-4c84-8529-06d83cdc6048.Count","label":"9➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38880344-949d-495e-a902-f69adc93a47a.item.sys_id","label":"8➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id"},{"name":"38880344-949d-495e-a902-f69adc93a47a.item","label":"8➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master_snapshot>4f84ff051bf478508ba476e7cc4bcb01</master_snapshot>
+        <name>Ouvidoria-Envia-Tarefa</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>29e088991b3878508ba476e7cc4bcbf5</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>985917891b3478508ba476e7cc4bcb99</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Ouvidoria-Envia-Tarefa</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name>sys_hub_flow_985917891b3478508ba476e7cc4bcb99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:24</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=985917891b3478508ba476e7cc4bcb99"/>
+    <sys_variable_value action="delete_multiple" query="document_key=985917891b3478508ba476e7cc4bcb99"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_ouvir_caso">u_estagio=3^active=true^u_solicitadosISNOTEMPTY<item display_value="Coleta de Informações" endquery="false" field="u_estagio" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_solicitados" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 03:35:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29e088991b3878508ba476e7cc4bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:20</sys_updated_on>
+        <table>x_snc_ouvir_caso</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"e1e088991b3878508ba476e7cc4bcbf6","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>985917891b3478508ba476e7cc4bcb99</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 03:35:20</sys_created_on>
+        <sys_id>e1e088991b3878508ba476e7cc4bcbf6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:20</sys_updated_on>
+        <trigger display_value="">29e088991b3878508ba476e7cc4bcbf5</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>e1e088991b3878508ba476e7cc4bcbf6</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 03:35:20</sys_created_on>
+        <sys_id>69e088991b3878508ba476e7cc4bcbf6</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=985917891b3478508ba476e7cc4bcb99^sys_idNOT INe1e088991b3878508ba476e7cc4bcbf6"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=985917891b3478508ba476e7cc4bcb99^sys_idNOT INe0ca570d1b3478508ba476e7cc4bcb4a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:48:42</sys_created_on>
+        <sys_id>e0ca570d1b3478508ba476e7cc4bcb4a</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:22</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e0ca570d1b3478508ba476e7cc4bcb4a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e0ca570d1b3478508ba476e7cc4bcb4a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:48:42</sys_created_on>
+        <sys_id>6cca570d1b3478508ba476e7cc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 00:48:42</sys_updated_on>
+        <value>x_snc_ouvir_caso</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e0ca570d1b3478508ba476e7cc4bcb4a</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:48:42</sys_created_on>
+        <sys_id>a0ca570d1b3478508ba476e7cc4bcb4b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:06:25</sys_updated_on>
+        <value>once</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e0ca570d1b3478508ba476e7cc4bcb4a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:48:42</sys_created_on>
+        <sys_id>a8ca570d1b3478508ba476e7cc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 00:48:42</sys_updated_on>
+        <value>u_estagio=3^active=true^u_solicitadosISNOTEMPTY</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=985917891b3478508ba476e7cc4bcb99^sys_idNOT IN945917891b3478508ba476e7cc4bcb9b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>985917891b3478508ba476e7cc4bcb99</id>
+        <name>Ouvidoria-Envia-Tarefa</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:24</sys_created_on>
+        <sys_id>945917891b3478508ba476e7cc4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 00:42:24</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=985917891b3478508ba476e7cc4bcb99^sys_idNOT IN10ca570d1b3478508ba476e7cc4bcb21,245917891b3478508ba476e7cc4bcba1,345917891b3478508ba476e7cc4bcba9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD2fd0489967387850bef9235c23172031,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</model>
+        <model_id>985917891b3478508ba476e7cc4bcb99</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_985917891b3478508ba476e7cc4bcb99</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:48:41</sys_created_on>
+        <sys_id>10ca570d1b3478508ba476e7cc4bcb21</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</model>
+        <model_id>985917891b3478508ba476e7cc4bcb99</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_985917891b3478508ba476e7cc4bcb99</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:25</sys_created_on>
+        <sys_id>245917891b3478508ba476e7cc4bcba1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</model>
+        <model_id>985917891b3478508ba476e7cc4bcb99</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_985917891b3478508ba476e7cc4bcb99</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:26</sys_created_on>
+        <sys_id>345917891b3478508ba476e7cc4bcba9</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=985917891b3478508ba476e7cc4bcb99^sys_idNOT IN137eeb891bb478508ba476e7cc4bcb98,4a4cab851bb478508ba476e7cc4bcb65,84c1eb851b7478508ba476e7cc4bcb4a,bfb1eb851b7478508ba476e7cc4bcb2a,d57237411bf478508ba476e7cc4bcb16,d65957891b3478508ba476e7cc4bcb4e,f7b1eb851b7478508ba476e7cc4bcb22"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <order>12</order>
+        <parent_ui_id>38880344-949d-495e-a902-f69adc93a47a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:14:54</sys_created_on>
+        <sys_id>137eeb891bb478508ba476e7cc4bcb98</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-16 10:14:51</sys_updated_on>
+        <ui_id>30b8a326-0f1b-4b68-beef-35d5bb64cc9f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=137eeb891bb478508ba476e7cc4bcb98"/>
+    <sys_element_mapping action="delete_multiple" query="id=137eeb891bb478508ba476e7cc4bcb98"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>137eeb891bb478508ba476e7cc4bcb98</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:14:54</sys_created_on>
+        <sys_id>df7eeb891bb478508ba476e7cc4bcb98</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:32:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>status do 9 {{6021bef9-ed28-4249-84c3-54c98e3ef900.status}}{{6021bef9-ed28-4249-84c3-54c98e3ef900.Record}}{{6021bef9-ed28-4249-84c3-54c98e3ef900.error_message}}{{6021bef9-ed28-4249-84c3-54c98e3ef900.Table}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <order>9</order>
+        <parent_ui_id>38880344-949d-495e-a902-f69adc93a47a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:05:15</sys_created_on>
+        <sys_id>4a4cab851bb478508ba476e7cc4bcb65</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-16 10:14:51</sys_updated_on>
+        <ui_id>6021bef9-ed28-4249-84c3-54c98e3ef900</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4a4cab851bb478508ba476e7cc4bcb65"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4a4cab851bb478508ba476e7cc4bcb65</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:05:15</sys_created_on>
+        <sys_id>464cab851bb478508ba476e7cc4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:05:15</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4a4cab851bb478508ba476e7cc4bcb65</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:05:15</sys_created_on>
+        <sys_id>c64cab851bb478508ba476e7cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:05:15</sys_updated_on>
+        <value>sys_attachment</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4a4cab851bb478508ba476e7cc4bcb65"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>4a4cab851bb478508ba476e7cc4bcb65</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:05:15</sys_created_on>
+        <sys_id>024cab851bb478508ba476e7cc4bcb68</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:32:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>table_sys_id={{38880344-949d-495e-a902-f69adc93a47a.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>4a4cab851bb478508ba476e7cc4bcb65</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:05:15</sys_created_on>
+        <sys_id>c24cab851bb478508ba476e7cc4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:05:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>4a4cab851bb478508ba476e7cc4bcb65</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:05:15</sys_created_on>
+        <sys_id>4a4cab851bb478508ba476e7cc4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:05:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <order>13</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>84c1eb851b7478508ba476e7cc4bcb4a</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-16 10:14:51</sys_updated_on>
+        <ui_id>7e23db84-dfbf-4cb2-a9da-fe7db3d9d3c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=84c1eb851b7478508ba476e7cc4bcb4a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>84c1eb851b7478508ba476e7cc4bcb4a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>04c1eb851b7478508ba476e7cc4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <value>u_estagio=4</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>84c1eb851b7478508ba476e7cc4bcb4a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>c4c1eb851b7478508ba476e7cc4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <value>x_snc_ouvir_caso</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=84c1eb851b7478508ba476e7cc4bcb4a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>84c1eb851b7478508ba476e7cc4bcb4a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>ccc1eb851b7478508ba476e7cc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>84c1eb851b7478508ba476e7cc4bcb4a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>0cc1eb851b7478508ba476e7cc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>84c1eb851b7478508ba476e7cc4bcb4a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>80c1eb851b7478508ba476e7cc4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>bfb1eb851b7478508ba476e7cc4bcb2a</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-16 10:14:51</sys_updated_on>
+        <ui_id>44f61e3d-31fe-4e8a-a421-13562a6551e6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bfb1eb851b7478508ba476e7cc4bcb2a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfb1eb851b7478508ba476e7cc4bcb2a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>bfb1eb851b7478508ba476e7cc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfb1eb851b7478508ba476e7cc4bcb2a</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>fbb1eb851b7478508ba476e7cc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <value>10</value>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bfb1eb851b7478508ba476e7cc4bcb2a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>bfb1eb851b7478508ba476e7cc4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>b7b1eb851b7478508ba476e7cc4bcb2c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:14:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>parent={{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>bfb1eb851b7478508ba476e7cc4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>f3b1eb851b7478508ba476e7cc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>bfb1eb851b7478508ba476e7cc4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>7bb1eb851b7478508ba476e7cc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy Attachment">30fe6cdb0f973300dfd3694e68767e5a</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>30fe6cdb0f973300dfd3694e68767e5a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <order>11</order>
+        <parent_ui_id>fbbe5b4d-8170-4adf-9180-17890f7e95ae</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:32:14</sys_created_on>
+        <sys_id>d57237411bf478508ba476e7cc4bcb16</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-16 10:14:51</sys_updated_on>
+        <ui_id>8f04cb5c-7f2a-457c-8f4c-17380468e81f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d57237411bf478508ba476e7cc4bcb16"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d57237411bf478508ba476e7cc4bcb16</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:32:14</sys_created_on>
+        <sys_id>957237411bf478508ba476e7cc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:32:14</sys_updated_on>
+        <value/>
+        <variable display_value="Target Record">b0fe6cdb0f973300dfd3694e68767e60</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d57237411bf478508ba476e7cc4bcb16</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:32:14</sys_created_on>
+        <sys_id>9d7237411bf478508ba476e7cc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:32:14</sys_updated_on>
+        <value>x_snc_ouvir_caso</value>
+        <variable display_value="Table">f4fe6cdb0f973300dfd3694e68767e67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d57237411bf478508ba476e7cc4bcb16"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_record</field>
+        <id>d57237411bf478508ba476e7cc4bcb16</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:32:14</sys_created_on>
+        <sys_id>1d7237411bf478508ba476e7cc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:32:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{6021bef9-ed28-4249-84c3-54c98e3ef900.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>d57237411bf478508ba476e7cc4bcb16</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:32:14</sys_created_on>
+        <sys_id>917237411bf478508ba476e7cc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:32:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record</field>
+        <id>d57237411bf478508ba476e7cc4bcb16</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:32:14</sys_created_on>
+        <sys_id>597237411bf478508ba476e7cc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:32:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <order>2</order>
+        <parent_ui_id>cd76111e-71d0-4311-9c94-7a59b6455f48</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:32</sys_created_on>
+        <sys_id>d65957891b3478508ba476e7cc4bcb4e</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-16 10:14:51</sys_updated_on>
+        <ui_id>6908ed43-32b0-4e47-a314-e30a87a34ba2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d65957891b3478508ba476e7cc4bcb4e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d65957891b3478508ba476e7cc4bcb4e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:32</sys_created_on>
+        <sys_id>de5957891b3478508ba476e7cc4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 00:42:32</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d65957891b3478508ba476e7cc4bcb4e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d65957891b3478508ba476e7cc4bcb4e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:32</sys_created_on>
+        <sys_id>9a5957891b3478508ba476e7cc4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 00:42:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d65957891b3478508ba476e7cc4bcb4e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:32</sys_created_on>
+        <sys_id>5e5957891b3478508ba476e7cc4bcb4f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:33:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>parent={{Updated_1.current}}^short_description=Você tem uma atividade de ouvidoria para responder^assigned_to={{cd76111e-71d0-4311-9c94-7a59b6455f48.item}}^state=1^priority=2^description=Prezado: {{cd76111e-71d0-4311-9c94-7a59b6455f48.item.name}}, você foi solicitado a enviar as informações sobre o atendimento: {{Updated_1.current.u_protoloco_atendimento.number}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <order>5</order>
+        <parent_ui_id>7a366d04-1fcc-4f28-b2e1-b3b6000bbdf0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:13</sys_created_on>
+        <sys_id>f7b1eb851b7478508ba476e7cc4bcb22</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-16 10:14:51</sys_updated_on>
+        <ui_id>d24da0f2-9196-4c0e-9df4-8a0929450193</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f7b1eb851b7478508ba476e7cc4bcb22"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f7b1eb851b7478508ba476e7cc4bcb22</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>33b1eb851b7478508ba476e7cc4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <value>10</value>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f7b1eb851b7478508ba476e7cc4bcb22</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>f3b1eb851b7478508ba476e7cc4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f7b1eb851b7478508ba476e7cc4bcb22"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>f7b1eb851b7478508ba476e7cc4bcb22</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>fbb1eb851b7478508ba476e7cc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>parent={{Updated_1.current}}^state=1^ORstate=2</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>f7b1eb851b7478508ba476e7cc4bcb22</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>3bb1eb851b7478508ba476e7cc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>f7b1eb851b7478508ba476e7cc4bcb22</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:14</sys_created_on>
+        <sys_id>bfb1eb851b7478508ba476e7cc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=985917891b3478508ba476e7cc4bcb99^sys_idNOT IN2fb1eb851b7478508ba476e7cc4bcb12,6bb1eb851b7478508ba476e7cc4bcb17,995917891b3478508ba476e7cc4bcbd2,a274fb051bf478508ba476e7cc4bcb0d,b016a74d1b7478508ba476e7cc4bcb6f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">23b1eb851b7478508ba476e7cc4bcb12</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:13</sys_created_on>
+        <sys_id>2fb1eb851b7478508ba476e7cc4bcb12</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:23</sys_updated_on>
+        <ui_id>7a366d04-1fcc-4f28-b2e1-b3b6000bbdf0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2fb1eb851b7478508ba476e7cc4bcb12"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2fb1eb851b7478508ba476e7cc4bcb12</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:13</sys_created_on>
+        <sys_id>e7b1eb851b7478508ba476e7cc4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:13</sys_updated_on>
+        <value>Não há mais atividades abertas.</value>
+        <variable display_value="Condition Label">bda2cb0473031300612c273ffff6a750</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2fb1eb851b7478508ba476e7cc4bcb12"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>2fb1eb851b7478508ba476e7cc4bcb12</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:13</sys_created_on>
+        <sys_id>67b1eb851b7478508ba476e7cc4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{d24da0f2-9196-4c0e-9df4-8a0929450193.Count}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>2fb1eb851b7478508ba476e7cc4bcb12</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:13</sys_created_on>
+        <sys_id>afb1eb851b7478508ba476e7cc4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a3b1eb851b7478508ba476e7cc4bcb17</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7a366d04-1fcc-4f28-b2e1-b3b6000bbdf0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:13</sys_created_on>
+        <sys_id>6bb1eb851b7478508ba476e7cc4bcb17</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:23</sys_updated_on>
+        <ui_id>9124da18-6867-4f52-ae8a-186de53566f8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6bb1eb851b7478508ba476e7cc4bcb17"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6bb1eb851b7478508ba476e7cc4bcb17</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:13</sys_created_on>
+        <sys_id>3fb1eb851b7478508ba476e7cc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:13</sys_updated_on>
+        <value>1970-01-01 00:00:30</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6bb1eb851b7478508ba476e7cc4bcb17</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:19:13</sys_created_on>
+        <sys_id>7bb1eb851b7478508ba476e7cc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:19:13</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">63789b091b3478508ba476e7cc4bcb76</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:28</sys_created_on>
+        <sys_id>995917891b3478508ba476e7cc4bcbd2</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:22</sys_updated_on>
+        <ui_id>cd76111e-71d0-4311-9c94-7a59b6455f48</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=995917891b3478508ba476e7cc4bcbd2"/>
+    <sys_element_mapping action="delete_multiple" query="id=995917891b3478508ba476e7cc4bcbd2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>995917891b3478508ba476e7cc4bcbd2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:28</sys_created_on>
+        <sys_id>d15917891b3478508ba476e7cc4bcbd5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 00:48:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{Updated_1.current.u_solicitados}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a674fb051bf478508ba476e7cc4bcb0c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>38880344-949d-495e-a902-f69adc93a47a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:03</sys_created_on>
+        <sys_id>a274fb051bf478508ba476e7cc4bcb0d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:23</sys_updated_on>
+        <ui_id>fbbe5b4d-8170-4adf-9180-17890f7e95ae</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a274fb051bf478508ba476e7cc4bcb0d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a274fb051bf478508ba476e7cc4bcb0d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:04</sys_created_on>
+        <sys_id>6a74fb051bf478508ba476e7cc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:04</sys_updated_on>
+        <value>Tem anexo</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a274fb051bf478508ba476e7cc4bcb0d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>a274fb051bf478508ba476e7cc4bcb0d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:04</sys_created_on>
+        <sys_id>e674fb051bf478508ba476e7cc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:04</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{6021bef9-ed28-4249-84c3-54c98e3ef900.status}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>a274fb051bf478508ba476e7cc4bcb0d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:03</sys_created_on>
+        <sys_id>2274fb051bf478508ba476e7cc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:03</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b416a74d1b7478508ba476e7cc4bcb6e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:38:09</sys_created_on>
+        <sys_id>b016a74d1b7478508ba476e7cc4bcb6f</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:23</sys_updated_on>
+        <ui_id>38880344-949d-495e-a902-f69adc93a47a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b016a74d1b7478508ba476e7cc4bcb6f"/>
+    <sys_element_mapping action="delete_multiple" query="id=b016a74d1b7478508ba476e7cc4bcb6f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>b016a74d1b7478508ba476e7cc4bcb6f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:38:09</sys_created_on>
+        <sys_id>f816a74d1b7478508ba476e7cc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:38:09</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{44f61e3d-31fe-4e8a-a421-13562a6551e6.Records}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_985917891b3478508ba476e7cc4bcb99^sys_idNOT IN3c5917891b3478508ba476e7cc4bcba7,855917891b3478508ba476e7cc4bcbae,ecca570d1b3478508ba476e7cc4bcb3f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_985917891b3478508ba476e7cc4bcb99</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:26</sys_created_on>
+        <sys_id>3c5917891b3478508ba476e7cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 00:42:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_985917891b3478508ba476e7cc4bcb99</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:42:27</sys_created_on>
+        <sys_id>855917891b3478508ba476e7cc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 00:42:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_985917891b3478508ba476e7cc4bcb99</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 00:48:41</sys_created_on>
+        <sys_id>ecca570d1b3478508ba476e7cc4bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 00:48:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=985917891b3478508ba476e7cc4bcb99^sys_idNOT IN399473451bf478508ba476e7cc4bcb40"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"399473451bf478508ba476e7cc4bcb40","name":"plan"}}</plan>
+        <plan_id>985917891b3478508ba476e7cc4bcb99</plan_id>
+        <snapshot>5d5cd9d51b30b8508ba476e7cc4bcb04</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>399473451bf478508ba476e7cc4bcb40</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:20</sys_updated_on>
+        <trigger display_value="">29e088991b3878508ba476e7cc4bcbf5</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ouvidoriaenviatarefa</internal_name>
+        <label_cache>[{"name":"Updated_1.current.u_protoloco_atendimento.number","label":"Trigger➛Caso de Ouvidoria Record➛Protocolo de Atendimento➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sn_customerservice_case","column_name":"number"},{"name":"6021bef9-ed28-4249-84c3-54c98e3ef900.Record.file_name","label":"9➛Attachment Record➛File name","reference":"","reference_display":"File name","type":"string","base_type":"string","parent_table_name":"sys_attachment","column_name":"file_name"},{"name":"6021bef9-ed28-4249-84c3-54c98e3ef900.error_message","label":"9➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"6021bef9-ed28-4249-84c3-54c98e3ef900.status","label":"9➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"6021bef9-ed28-4249-84c3-54c98e3ef900.Table","label":"9➛Attachment Table","reference":"sys_attachment","reference_display":"Attachment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6021bef9-ed28-4249-84c3-54c98e3ef900.Record","label":"9➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e8f5958-28ff-40dd-bf13-51a686065273.parameter1","label":"9➛parameter1","reference_display":"parameter1","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e8f5958-28ff-40dd-bf13-51a686065273.parameter","label":"9➛parameter","reference_display":"parameter","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_protoloco_atendimento","label":"Trigger➛Caso de Ouvidoria Record➛Protocolo de Atendimento","reference":"sn_customerservice_case","reference_display":"Case","type":"reference","base_type":"reference","parent_table_name":"x_snc_ouvir_caso","column_name":"u_protoloco_atendimento"},{"name":"cd76111e-71d0-4311-9c94-7a59b6455f48.item.name","label":"1➛User Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Updated_1.current","label":"Trigger➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.u_solicitados","label":"Trigger➛Caso de Ouvidoria Record➛Solicitados","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_snc_ouvir_caso","column_name":"u_solicitados"},{"name":"Created_1.current.u_protoloco_atendimento","label":"Trigger➛Caso de Ouvidoria Record➛Protocolo de Atendimento","reference":"sn_customerservice_case","reference_display":"Case","type":"reference","base_type":"reference","parent_table_name":"x_snc_ouvir_caso","column_name":"u_protoloco_atendimento"},{"name":"Created_1.current.number","label":"Trigger➛Caso de Ouvidoria Record➛Protocolo","reference":"","reference_display":"Protocolo","type":"string","base_type":"string","parent_table_name":"x_snc_ouvir_caso","column_name":"number"},{"name":"6908ed43-32b0-4e47-a314-e30a87a34ba2.table_name","label":"2➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6908ed43-32b0-4e47-a314-e30a87a34ba2.record","label":"2➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f97f536-30d8-46cb-9b91-c350b54006e7.Table","label":"6➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f97f536-30d8-46cb-9b91-c350b54006e7.Record","label":"6➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cd76111e-71d0-4311-9c94-7a59b6455f48.item","label":"1➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created_1.current.u_solicitados","label":"Trigger➛Caso de Ouvidoria Record➛Solicitados","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_snc_ouvir_caso","column_name":"u_solicitados"},{"name":"b69b71a5-a141-4370-80b0-b7a1d4f9b188.table_name","label":"5➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b69b71a5-a141-4370-80b0-b7a1d4f9b188.record","label":"5➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54fe09f3-34c4-4f43-a071-e0dd14401a64.record","label":"1➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54fe09f3-34c4-4f43-a071-e0dd14401a64.table_name","label":"1➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.u_manifestao","label":"Trigger➛Caso de Ouvidoria Record➛Manifestação","reference":"","reference_display":"Manifestação","type":"html","base_type":"html","parent_table_name":"x_snc_ouvir_caso","column_name":"u_manifestao"},{"name":"f1223143-b6dc-4e79-851d-212878e3377d.total_duration","label":"1➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"f1223143-b6dc-4e79-851d-212878e3377d.scheduled_end_date_time","label":"1➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"0fb14b14-2e5e-4792-8673-04bf4180ae96.record","label":"1➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0fb14b14-2e5e-4792-8673-04bf4180ae96.table_name","label":"1➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71b7855b-931f-45da-b614-74cafda833fe.state","label":"1➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"df4df40e-b705-4f12-9e74-85f378b3fdf8.record","label":"1➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df4df40e-b705-4f12-9e74-85f378b3fdf8.table_name","label":"1➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0af5e42-c1c2-4fc5-9e87-80e74a9bab71.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"85fae6d4-6885-4925-8130-9ca49384b011.record","label":"3➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"85fae6d4-6885-4925-8130-9ca49384b011.table_name","label":"3➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3fc65128-bb5c-4aaa-be5d-d56e0cd024dd.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"756cb676-6cb0-4dab-9587-e8bbd00b7a08.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.46cd276ba9fe19810024aa59b51d6ef7}}","label":"Megan Burke","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"85fae6d4-6885-4925-8130-9ca49384b011.record.sys_updated_on","label":"3➛Caso de Ouvidoria Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_ouvir_caso","column_name":"sys_updated_on"},{"name":"Created_1.current.opened_by.name","label":"Trigger➛Caso de Ouvidoria Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.u_resposta","label":"Trigger➛Caso de Ouvidoria Record➛Resposta","reference":"","reference_display":"Resposta","type":"html","base_type":"html","parent_table_name":"x_snc_ouvir_caso","column_name":"u_resposta"},{"name":"9124da18-6867-4f52-ae8a-186de53566f8.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"9124da18-6867-4f52-ae8a-186de53566f8.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"d24da0f2-9196-4c0e-9df4-8a0929450193.Records","label":"5➛Task Records","reference":"task","reference_display":"Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d24da0f2-9196-4c0e-9df4-8a0929450193.Table","label":"5➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d24da0f2-9196-4c0e-9df4-8a0929450193.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8188d6a4-833f-4d96-9064-851a5afac348.item","label":"6➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"8188d6a4-833f-4d96-9064-851a5afac348.item.state","label":"6➛Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"task","column_name":"state"},{"name":"7e23db84-dfbf-4cb2-a9da-fe7db3d9d3c7.record","label":"13➛Caso de Ouvidoria Record","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e23db84-dfbf-4cb2-a9da-fe7db3d9d3c7.table_name","label":"13➛Caso de Ouvidoria Table","reference":"x_snc_ouvir_caso","reference_display":"Caso de Ouvidoria","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44f61e3d-31fe-4e8a-a421-13562a6551e6.Records","label":"7➛Task Records","reference":"task","reference_display":"Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44f61e3d-31fe-4e8a-a421-13562a6551e6.Table","label":"7➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44f61e3d-31fe-4e8a-a421-13562a6551e6.Count","label":"7➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"76f14872-b295-4229-a701-8ebad2ca4010.item","label":"12➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"51bc2713-aaeb-4e4a-91a5-69134e2f3213.parameter","label":"9➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"records"}},{"name":"51bc2713-aaeb-4e4a-91a5-69134e2f3213.parameter1","label":"9➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"8e432fdc-e834-4c84-8529-06d83cdc6048.Records","label":"9➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e432fdc-e834-4c84-8529-06d83cdc6048.Table","label":"9➛Attachment Table","reference":"sys_attachment","reference_display":"Attachment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e432fdc-e834-4c84-8529-06d83cdc6048.Count","label":"9➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38880344-949d-495e-a902-f69adc93a47a.item.sys_id","label":"8➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id"},{"name":"38880344-949d-495e-a902-f69adc93a47a.item","label":"8➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master>true</master>
+        <name>Ouvidoria-Envia-Tarefa</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Ouvidoria-Envia-Tarefa">985917891b3478508ba476e7cc4bcb99</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f84ff051bf478508ba476e7cc4bcb01</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:14</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4f84ff051bf478508ba476e7cc4bcb01"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4f84ff051bf478508ba476e7cc4bcb01"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=4f84ff051bf478508ba476e7cc4bcb01^sys_idNOT IN5894ff051bf478508ba476e7cc4bcbee"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>5894ff051bf478508ba476e7cc4bcbee</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:21</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5894ff051bf478508ba476e7cc4bcbee"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5894ff051bf478508ba476e7cc4bcbee</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:28</sys_created_on>
+        <sys_id>1c94ff051bf478508ba476e7cc4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:28</sys_updated_on>
+        <value>x_snc_ouvir_caso</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5894ff051bf478508ba476e7cc4bcbee</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:28</sys_created_on>
+        <sys_id>5894ff051bf478508ba476e7cc4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:28</sys_updated_on>
+        <value>u_estagio=3^active=true^u_solicitadosISNOTEMPTY</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5894ff051bf478508ba476e7cc4bcbee</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:28</sys_created_on>
+        <sys_id>9494ff051bf478508ba476e7cc4bcbf0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:18:42</sys_updated_on>
+        <value>once</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4f84ff051bf478508ba476e7cc4bcb01^sys_idNOT INc384ff051bf478508ba476e7cc4bcb03"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4f84ff051bf478508ba476e7cc4bcb01</id>
+        <name>Ouvidoria-Envia-Tarefa</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:22</sys_created_on>
+        <sys_id>c384ff051bf478508ba476e7cc4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=4f84ff051bf478508ba476e7cc4bcb01^sys_idNOT IN4b84ff051bf478508ba476e7cc4bcb06,5784ff051bf478508ba476e7cc4bcb23,9784ff051bf478508ba476e7cc4bcb54"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</model>
+        <model_id>4f84ff051bf478508ba476e7cc4bcb01</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4f84ff051bf478508ba476e7cc4bcb01</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:22</sys_created_on>
+        <sys_id>4b84ff051bf478508ba476e7cc4bcb06</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD2fd0489967387850bef9235c23172031,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</model>
+        <model_id>4f84ff051bf478508ba476e7cc4bcb01</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4f84ff051bf478508ba476e7cc4bcb01</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:23</sys_created_on>
+        <sys_id>5784ff051bf478508ba476e7cc4bcb23</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</model>
+        <model_id>4f84ff051bf478508ba476e7cc4bcb01</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4f84ff051bf478508ba476e7cc4bcb01</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:23</sys_created_on>
+        <sys_id>9784ff051bf478508ba476e7cc4bcb54</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=4f84ff051bf478508ba476e7cc4bcb01^sys_idNOT IN0c94ff051bf478508ba476e7cc4bcbdd,3b84ff051bf478508ba476e7cc4bcba5,8894ff051bf478508ba476e7cc4bcbb7,8894ff051bf478508ba476e7cc4bcbcf,bb84ff051bf478508ba476e7cc4bcbaf,d094ff051bf478508ba476e7cc4bcbec,dc94ff051bf478508ba476e7cc4bcbe4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy Attachment">30fe6cdb0f973300dfd3694e68767e5a</action_type>
+        <action_type_parent display_value="Copy Attachment">95849c2a9353130079b5925cf67ffb91</action_type_parent>
+        <comment/>
+        <compiled_snapshot>30fe6cdb0f973300dfd3694e68767e5a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <order>11</order>
+        <parent_ui_id>fbbe5b4d-8170-4adf-9180-17890f7e95ae</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>0c94ff051bf478508ba476e7cc4bcbdd</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:14</sys_updated_on>
+        <ui_id>8f04cb5c-7f2a-457c-8f4c-17380468e81f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0c94ff051bf478508ba476e7cc4bcbdd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c94ff051bf478508ba476e7cc4bcbdd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>0c94ff051bf478508ba476e7cc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:27</sys_updated_on>
+        <value/>
+        <variable display_value="Target Record">b0fe6cdb0f973300dfd3694e68767e60</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c94ff051bf478508ba476e7cc4bcbdd</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>4894ff051bf478508ba476e7cc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:27</sys_updated_on>
+        <value>x_snc_ouvir_caso</value>
+        <variable display_value="Table">f4fe6cdb0f973300dfd3694e68767e67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0c94ff051bf478508ba476e7cc4bcbdd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_record</field>
+        <id>0c94ff051bf478508ba476e7cc4bcbdd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>c494ff051bf478508ba476e7cc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{6021bef9-ed28-4249-84c3-54c98e3ef900.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>0c94ff051bf478508ba476e7cc4bcbdd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>4094ff051bf478508ba476e7cc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record</field>
+        <id>0c94ff051bf478508ba476e7cc4bcbdd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>0494ff051bf478508ba476e7cc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <order>2</order>
+        <parent_ui_id>cd76111e-71d0-4311-9c94-7a59b6455f48</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>3b84ff051bf478508ba476e7cc4bcba5</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:13</sys_updated_on>
+        <ui_id>6908ed43-32b0-4e47-a314-e30a87a34ba2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3b84ff051bf478508ba476e7cc4bcba5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3b84ff051bf478508ba476e7cc4bcba5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>7784ff051bf478508ba476e7cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:25</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3b84ff051bf478508ba476e7cc4bcba5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3b84ff051bf478508ba476e7cc4bcba5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>3384ff051bf478508ba476e7cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3b84ff051bf478508ba476e7cc4bcba5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>f384ff051bf478508ba476e7cc4bcba7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>parent={{Updated_1.current}}^short_description=Você tem uma atividade de ouvidoria para responder^assigned_to={{cd76111e-71d0-4311-9c94-7a59b6455f48.item}}^state=1^priority=2^description=Prezado: {{cd76111e-71d0-4311-9c94-7a59b6455f48.item.name}}, você foi solicitado a enviar as informações sobre o atendimento: {{Updated_1.current.u_protoloco_atendimento.number}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>8894ff051bf478508ba476e7cc4bcbb7</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:13</sys_updated_on>
+        <ui_id>44f61e3d-31fe-4e8a-a421-13562a6551e6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8894ff051bf478508ba476e7cc4bcbb7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8894ff051bf478508ba476e7cc4bcbb7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>4094ff051bf478508ba476e7cc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8894ff051bf478508ba476e7cc4bcbb7</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>c494ff051bf478508ba476e7cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <value>10</value>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8894ff051bf478508ba476e7cc4bcbb7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>8894ff051bf478508ba476e7cc4bcbb7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>8094ff051bf478508ba476e7cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>parent={{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>8894ff051bf478508ba476e7cc4bcbb7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>cc94ff051bf478508ba476e7cc4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>8894ff051bf478508ba476e7cc4bcbb7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>4494ff051bf478508ba476e7cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <order>9</order>
+        <parent_ui_id>38880344-949d-495e-a902-f69adc93a47a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>8894ff051bf478508ba476e7cc4bcbcf</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:14</sys_updated_on>
+        <ui_id>6021bef9-ed28-4249-84c3-54c98e3ef900</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8894ff051bf478508ba476e7cc4bcbcf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8894ff051bf478508ba476e7cc4bcbcf</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>0094ff051bf478508ba476e7cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <value>sys_attachment</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8894ff051bf478508ba476e7cc4bcbcf</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>4c94ff051bf478508ba476e7cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8894ff051bf478508ba476e7cc4bcbcf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>8894ff051bf478508ba476e7cc4bcbcf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>0894ff051bf478508ba476e7cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>table_sys_id={{38880344-949d-495e-a902-f69adc93a47a.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>8894ff051bf478508ba476e7cc4bcbcf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>c894ff051bf478508ba476e7cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>8894ff051bf478508ba476e7cc4bcbcf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>4494ff051bf478508ba476e7cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <order>5</order>
+        <parent_ui_id>7a366d04-1fcc-4f28-b2e1-b3b6000bbdf0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>bb84ff051bf478508ba476e7cc4bcbaf</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:13</sys_updated_on>
+        <ui_id>d24da0f2-9196-4c0e-9df4-8a0929450193</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb84ff051bf478508ba476e7cc4bcbaf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb84ff051bf478508ba476e7cc4bcbaf</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>bf84ff051bf478508ba476e7cc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb84ff051bf478508ba476e7cc4bcbaf</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>fb84ff051bf478508ba476e7cc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <value>10</value>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bb84ff051bf478508ba476e7cc4bcbaf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>bb84ff051bf478508ba476e7cc4bcbaf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>b784ff051bf478508ba476e7cc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>parent={{Updated_1.current}}^state=1^ORstate=2</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>bb84ff051bf478508ba476e7cc4bcbaf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>f384ff051bf478508ba476e7cc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>bb84ff051bf478508ba476e7cc4bcbaf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:26</sys_created_on>
+        <sys_id>7b84ff051bf478508ba476e7cc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <order>13</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>d094ff051bf478508ba476e7cc4bcbec</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:14</sys_updated_on>
+        <ui_id>7e23db84-dfbf-4cb2-a9da-fe7db3d9d3c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d094ff051bf478508ba476e7cc4bcbec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d094ff051bf478508ba476e7cc4bcbec</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>1094ff051bf478508ba476e7cc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:27</sys_updated_on>
+        <value>u_estagio=4</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d094ff051bf478508ba476e7cc4bcbec</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>d094ff051bf478508ba476e7cc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:27</sys_updated_on>
+        <value>x_snc_ouvir_caso</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d094ff051bf478508ba476e7cc4bcbec"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d094ff051bf478508ba476e7cc4bcbec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>d894ff051bf478508ba476e7cc4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d094ff051bf478508ba476e7cc4bcbec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>1894ff051bf478508ba476e7cc4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d094ff051bf478508ba476e7cc4bcbec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>9c94ff051bf478508ba476e7cc4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <order>12</order>
+        <parent_ui_id>38880344-949d-495e-a902-f69adc93a47a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>dc94ff051bf478508ba476e7cc4bcbe4</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:14</sys_updated_on>
+        <ui_id>30b8a326-0f1b-4b68-beef-35d5bb64cc9f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dc94ff051bf478508ba476e7cc4bcbe4"/>
+    <sys_element_mapping action="delete_multiple" query="id=dc94ff051bf478508ba476e7cc4bcbe4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>dc94ff051bf478508ba476e7cc4bcbe4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:27</sys_created_on>
+        <sys_id>9094ff051bf478508ba476e7cc4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>status do 9 {{6021bef9-ed28-4249-84c3-54c98e3ef900.status}}{{6021bef9-ed28-4249-84c3-54c98e3ef900.Record}}{{6021bef9-ed28-4249-84c3-54c98e3ef900.error_message}}{{6021bef9-ed28-4249-84c3-54c98e3ef900.Table}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=4f84ff051bf478508ba476e7cc4bcb01^sys_idNOT IN2384ff051bf478508ba476e7cc4bcb70,2384ff051bf478508ba476e7cc4bcb75,2b84ff051bf478508ba476e7cc4bcb79,e384ff051bf478508ba476e7cc4bcb99,f384ff051bf478508ba476e7cc4bcb9c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">63789b091b3478508ba476e7cc4bcb76</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:24</sys_created_on>
+        <sys_id>2384ff051bf478508ba476e7cc4bcb70</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:13</sys_updated_on>
+        <ui_id>cd76111e-71d0-4311-9c94-7a59b6455f48</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2384ff051bf478508ba476e7cc4bcb70"/>
+    <sys_element_mapping action="delete_multiple" query="id=2384ff051bf478508ba476e7cc4bcb70"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>2384ff051bf478508ba476e7cc4bcb70</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:24</sys_created_on>
+        <sys_id>e384ff051bf478508ba476e7cc4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{Updated_1.current.u_solicitados}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">23b1eb851b7478508ba476e7cc4bcb12</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:24</sys_created_on>
+        <sys_id>2384ff051bf478508ba476e7cc4bcb75</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:13</sys_updated_on>
+        <ui_id>7a366d04-1fcc-4f28-b2e1-b3b6000bbdf0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2384ff051bf478508ba476e7cc4bcb75"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2384ff051bf478508ba476e7cc4bcb75</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:24</sys_created_on>
+        <sys_id>ab84ff051bf478508ba476e7cc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:24</sys_updated_on>
+        <value>Não há mais atividades abertas.</value>
+        <variable display_value="Condition Label">bda2cb0473031300612c273ffff6a750</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2384ff051bf478508ba476e7cc4bcb75"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>2384ff051bf478508ba476e7cc4bcb75</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:24</sys_created_on>
+        <sys_id>2b84ff051bf478508ba476e7cc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{d24da0f2-9196-4c0e-9df4-8a0929450193.Count}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>2384ff051bf478508ba476e7cc4bcb75</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:24</sys_created_on>
+        <sys_id>6784ff051bf478508ba476e7cc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a3b1eb851b7478508ba476e7cc4bcb17</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7a366d04-1fcc-4f28-b2e1-b3b6000bbdf0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:24</sys_created_on>
+        <sys_id>2b84ff051bf478508ba476e7cc4bcb79</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:13</sys_updated_on>
+        <ui_id>9124da18-6867-4f52-ae8a-186de53566f8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2b84ff051bf478508ba476e7cc4bcb79"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2b84ff051bf478508ba476e7cc4bcb79</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>6784ff051bf478508ba476e7cc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:25</sys_updated_on>
+        <value>1970-01-01 00:00:30</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2b84ff051bf478508ba476e7cc4bcb79</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>a384ff051bf478508ba476e7cc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:25</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b416a74d1b7478508ba476e7cc4bcb6e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>e384ff051bf478508ba476e7cc4bcb99</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:13</sys_updated_on>
+        <ui_id>38880344-949d-495e-a902-f69adc93a47a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e384ff051bf478508ba476e7cc4bcb99"/>
+    <sys_element_mapping action="delete_multiple" query="id=e384ff051bf478508ba476e7cc4bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e384ff051bf478508ba476e7cc4bcb99</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>3b84ff051bf478508ba476e7cc4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{44f61e3d-31fe-4e8a-a421-13562a6551e6.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a674fb051bf478508ba476e7cc4bcb0c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ouvidoria-Envia-Tarefa">4f84ff051bf478508ba476e7cc4bcb01</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>38880344-949d-495e-a902-f69adc93a47a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>f384ff051bf478508ba476e7cc4bcb9c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 03:35:14</sys_updated_on>
+        <ui_id>fbbe5b4d-8170-4adf-9180-17890f7e95ae</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f384ff051bf478508ba476e7cc4bcb9c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f384ff051bf478508ba476e7cc4bcb9c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>7b84ff051bf478508ba476e7cc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:25</sys_updated_on>
+        <value>Tem anexo</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f384ff051bf478508ba476e7cc4bcb9c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f384ff051bf478508ba476e7cc4bcb9c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>f784ff051bf478508ba476e7cc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{6021bef9-ed28-4249-84c3-54c98e3ef900.status}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f384ff051bf478508ba476e7cc4bcb9c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:25</sys_created_on>
+        <sys_id>3784ff051bf478508ba476e7cc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4f84ff051bf478508ba476e7cc4bcb01^sys_idNOT IN1784ff051bf478508ba476e7cc4bcb50,1f84ff051bf478508ba476e7cc4bcb5b,d384ff051bf478508ba476e7cc4bcb1f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4f84ff051bf478508ba476e7cc4bcb01</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:23</sys_created_on>
+        <sys_id>1784ff051bf478508ba476e7cc4bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4f84ff051bf478508ba476e7cc4bcb01</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:24</sys_created_on>
+        <sys_id>1f84ff051bf478508ba476e7cc4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4f84ff051bf478508ba476e7cc4bcb01</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 02:41:23</sys_created_on>
+        <sys_id>d384ff051bf478508ba476e7cc4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 02:41:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>985917891b3478508ba476e7cc4bcb99</sys_id>
+        <latest_snapshot>4f84ff051bf478508ba476e7cc4bcb01</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

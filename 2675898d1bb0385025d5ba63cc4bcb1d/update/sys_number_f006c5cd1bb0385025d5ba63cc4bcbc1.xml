@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_ouvir_caso">x_snc_ouvir_caso</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>OUVIR</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 13:58:49</sys_created_on>
+        <sys_id>f006c5cd1bb0385025d5ba63cc4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OUVIR</sys_name>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name>sys_number_f006c5cd1bb0385025d5ba63cc4bcbc1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 13:58:49</sys_updated_on>
+    </sys_number>
+</record_update>

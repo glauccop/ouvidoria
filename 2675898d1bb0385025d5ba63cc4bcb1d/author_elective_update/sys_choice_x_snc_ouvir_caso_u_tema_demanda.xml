@@ -1,0 +1,2160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_tema_demanda" table="x_snc_ouvir_caso" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_tema_demanda</element>
+            <name>x_snc_ouvir_caso</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:57</sys_created_on>
+            <sys_id>129d41891bf0385025d5ba63cc4bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_tema_demanda</sys_name>
+            <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+            <sys_update_name>sys_choice_x_snc_ouvir_caso_u_tema_demanda</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:57</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aposentadoria - cancelamento do benefício Previ</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d69d41891bf0385025d5ba63cc4bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:57</sys_updated_on>
+            <value>aposentadoria - cancelamento do benefício previ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aposentadoria - concessão</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d29d41891bf0385025d5ba63cc4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:57</sys_updated_on>
+            <value>aposentadoria - concessão</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aposentadoria - manutenção</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a9d41891bf0385025d5ba63cc4bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:57</sys_updated_on>
+            <value>aposentadoria - manutenção</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aposentadoria - reajuste</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a9d41891bf0385025d5ba63cc4bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:57</sys_updated_on>
+            <value>aposentadoria - reajuste</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aposentadoria - revisão de benefício</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a9d41891bf0385025d5ba63cc4bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:57</sys_updated_on>
+            <value>aposentadoria - revisão de benefício</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aposentadoria - simulação de valor</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a9d41891bf0385025d5ba63cc4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:57</sys_updated_on>
+            <value>aposentadoria - simulação de valor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assédio  Moral</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a9d41891bf0385025d5ba63cc4bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:57</sys_updated_on>
+            <value>assédio  moral</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assédio  Sexual</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a9d41891bf0385025d5ba63cc4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:58</sys_updated_on>
+            <value>assédio  sexual</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Atendimento - demora na resposta</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a9d41891bf0385025d5ba63cc4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:58</sys_updated_on>
+            <value>atendimento - demora na resposta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Atendimento - não consegue contato</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a9d41891bf0385025d5ba63cc4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:58</sys_updated_on>
+            <value>atendimento - não consegue contato</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Atendimento - qualidade do atendimento recebido</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a9d41891bf0385025d5ba63cc4bcb50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:58</sys_updated_on>
+            <value>atendimento - qualidade do atendimento recebido</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Atendimento - tempo de espera telefônica</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a9d41891bf0385025d5ba63cc4bcb54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:58</sys_updated_on>
+            <value>atendimento - tempo de espera telefônica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Atualização Cadastral</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a9d41891bf0385025d5ba63cc4bcb58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:58</sys_updated_on>
+            <value>atualização cadastral</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Autoatendimento - dificuldade na navegação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a9d41891bf0385025d5ba63cc4bcb5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:58</sys_updated_on>
+            <value>autoatendimento - dificuldade na navegação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Autoatendimento - inoperância</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a9d41891bf0385025d5ba63cc4bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:58</sys_updated_on>
+            <value>autoatendimento - inoperância</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Benefício Especial de Renda Certa</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:31:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a9d41891bf0385025d5ba63cc4bcb64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:31:58</sys_updated_on>
+            <value>benefício especial de renda certa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BET</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3661d5cd1bf0385025d5ba63cc4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:39</sys_updated_on>
+            <value>bet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAPEC - demora no pagamento</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e61d5cd1bf0385025d5ba63cc4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:39</sys_updated_on>
+            <value>capec - demora no pagamento</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAPEC - documentação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa61d5cd1bf0385025d5ba63cc4bcbdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:39</sys_updated_on>
+            <value>capec - documentação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAPEC - outros</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa61d5cd1bf0385025d5ba63cc4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:39</sys_updated_on>
+            <value>capec - outros</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAPEC - situação do processo</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa61d5cd1bf0385025d5ba63cc4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:39</sys_updated_on>
+            <value>capec - situação do processo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cartão PREVI</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa61d5cd1bf0385025d5ba63cc4bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:39</sys_updated_on>
+            <value>cartão previ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CASSI</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb61d5cd1bf0385025d5ba63cc4bcbed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:39</sys_updated_on>
+            <value>cassi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cesta Alimentação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb61d5cd1bf0385025d5ba63cc4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:39</sys_updated_on>
+            <value>cesta alimentação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Clube de Benefícios</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb61d5cd1bf0385025d5ba63cc4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:39</sys_updated_on>
+            <value>clube de benefícios</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Comunicação Institucional</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb61d5cd1bf0385025d5ba63cc4bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:39</sys_updated_on>
+            <value>comunicação institucional</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conduta Inadequada</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb61d5cd1bf0385025d5ba63cc4bcbfd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:39</sys_updated_on>
+            <value>conduta inadequada</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contribuição</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>27</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb6119cd1bf0385025d5ba63cc4bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>contribuição</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Convênio INSS - Cancelamento benefício INSS</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>28</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb6119cd1bf0385025d5ba63cc4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>convênio inss - cancelamento benefício inss</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Convênio INSS - Concessão de  benefício INSS</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>29</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb6119cd1bf0385025d5ba63cc4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>convênio inss - concessão de  benefício inss</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dívida - Empréstimo Simples</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>31</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f6119cd1bf0385025d5ba63cc4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>dívida - empréstimo simples</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dívida - Financiamento Imobiliário</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>32</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f6119cd1bf0385025d5ba63cc4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>dívida - financiamento imobiliário</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dívida - saldo devedor de falecido</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>33</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f6119cd1bf0385025d5ba63cc4bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>dívida - saldo devedor de falecido</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dívida Previdenciária</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>34</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f6119cd1bf0385025d5ba63cc4bcb19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>dívida previdenciária</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empresa Participada</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>35</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f6119cd1bf0385025d5ba63cc4bcb1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>empresa participada</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples -  teto</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>36</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f6119cd1bf0385025d5ba63cc4bcb21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>empréstimo simples -  teto</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples - amortização</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>37</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f6119cd1bf0385025d5ba63cc4bcb25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>empréstimo simples - amortização</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples - cancelamento</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>38</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f6119cd1bf0385025d5ba63cc4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>empréstimo simples - cancelamento</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples - cobrança</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>39</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f6119cd1bf0385025d5ba63cc4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:40</sys_updated_on>
+            <value>empréstimo simples - cobrança</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples - contratação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f6119cd1bf0385025d5ba63cc4bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>empréstimo simples - contratação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples - devolução da prestação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>41</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f6119cd1bf0385025d5ba63cc4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>empréstimo simples - devolução da prestação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples - evolução do saldo</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>42</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f6119cd1bf0385025d5ba63cc4bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>empréstimo simples - evolução do saldo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples - liquidação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>43</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>136119cd1bf0385025d5ba63cc4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>empréstimo simples - liquidação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples - margem</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>44</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>136119cd1bf0385025d5ba63cc4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>empréstimo simples - margem</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples - renovação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>45</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>136119cd1bf0385025d5ba63cc4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>empréstimo simples - renovação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples - repactuação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>46</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d76119cd1bf0385025d5ba63cc4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>empréstimo simples - repactuação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empréstimo Simples - suspensão da cobrança</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>47</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d76119cd1bf0385025d5ba63cc4bcb98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>empréstimo simples - suspensão da cobrança</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Escritório Terceirizado</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>48</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>escritório terceirizado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Falha Operacional</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>49</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>falha operacional</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Favorecimento de fornecedores</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>favorecimento de fornecedores</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financiamento Imobiliário - atuação Athos</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>51</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>financiamento imobiliário - atuação athos</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financiamento Imobiliário - baixa de hipoteca</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>52</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:41</sys_updated_on>
+            <value>financiamento imobiliário - baixa de hipoteca</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financiamento Imobiliário - cobrança</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>53</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>financiamento imobiliário - cobrança</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financiamento Imobiliário - contratação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>54</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>financiamento imobiliário - contratação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financiamento Imobiliário - evolução/ devolução de prestação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>55</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>financiamento imobiliário - evolução/ devolução de prestação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financiamento Imobiliário - liquidação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>56</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>financiamento imobiliário - liquidação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financiamento Imobiliário - repactuação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>57</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>financiamento imobiliário - repactuação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financiamento Imobiliário - seguro</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>58</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>financiamento imobiliário - seguro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fopag - consignação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>59</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>fopag - consignação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fopag - contracheque</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>fopag - contracheque</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fopag - créditos</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>61</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>fopag - créditos</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fopag - outros</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>62</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>fopag - outros</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fraude Contábil</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>63</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76119cd1bf0385025d5ba63cc4bcbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>fraude contábil</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fraude Operacional</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>64</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f76119cd1bf0385025d5ba63cc4bcbdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>fraude operacional</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Funci -  processo seletivo</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>65</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f76119cd1bf0385025d5ba63cc4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>funci -  processo seletivo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Funci - avaliação de desempenho</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>66</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f76119cd1bf0385025d5ba63cc4bcbe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:42</sys_updated_on>
+            <value>funci - avaliação de desempenho</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Funci - bolsa de estudos</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>67</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f76119cd1bf0385025d5ba63cc4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>funci - bolsa de estudos</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Funci - capacitação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>68</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f76119cd1bf0385025d5ba63cc4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>funci - capacitação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Funci - jornada de trabalho</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>69</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f76119cd1bf0385025d5ba63cc4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>funci - jornada de trabalho</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Imposto de Renda</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f76119cd1bf0385025d5ba63cc4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>imposto de renda</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inadimplência - Empréstimo Simples</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>71</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f76119cd1bf0385025d5ba63cc4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>inadimplência - empréstimo simples</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inadimplência - Financiamento Imobiliário</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>72</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f76119cd1bf0385025d5ba63cc4bcbfc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>inadimplência - financiamento imobiliário</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Insatisfação com as Regras e Políticas da Previ</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>73</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f76159cd1bf0385025d5ba63cc4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>insatisfação com as regras e políticas da previ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Investimento</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>74</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf6159cd1bf0385025d5ba63cc4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>investimento</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Opções de desligamento</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>75</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf6159cd1bf0385025d5ba63cc4bcb14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>opções de desligamento</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outros</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>76</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf6159cd1bf0385025d5ba63cc4bcb18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>outros</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ouvidoria</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>77</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf6159cd1bf0385025d5ba63cc4bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>ouvidoria</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pagamentos ou recebimentos impróprios</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>78</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>pagamentos ou recebimentos impróprios</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pensão - cancelamento do benefício Previ</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>79</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>pensão - cancelamento do benefício previ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pensão - concessão</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>pensão - concessão</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pensão - revisão de benefício</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>81</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:43</sys_updated_on>
+            <value>pensão - revisão de benefício</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pensão - situação do processo</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>82</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>pensão - situação do processo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pensão Alimentícia</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>83</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>pensão alimentícia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Portabilidade</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>84</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>portabilidade</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Preservação do nível de contribuição</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>85</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>preservação do nível de contribuição</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Previ Familia - atualização cadastral</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>86</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>previ familia - atualização cadastral</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Previ Família - cobrança</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>87</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>previ família - cobrança</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Previ Família - contratação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>88</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>previ família - contratação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Previ Família - extrato</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>89</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>previ família - extrato</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Previ Família - outros</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>previ família - outros</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Previ Família - perfis de investimento</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>91</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>previ família - perfis de investimento</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Previ Futuro - perfis de investimento</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>92</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>previ futuro - perfis de investimento</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Processo de Seleção de Conselheiros</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>93</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>processo de seleção de conselheiros</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Processo eleitoral Previ</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>94</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>processo eleitoral previ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quebra de dados ou informações confidenciais</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>95</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>quebra de dados ou informações confidenciais</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recadastramento</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>96</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>recadastramento</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reclamatória Trabalhista</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>97</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>reclamatória trabalhista</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regime de Tributação</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>98</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>regime de tributação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reingresso</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>99</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>reingresso</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reserva</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>reserva</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resgate</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>101</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>resgate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resgate - forma de pagamento</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>102</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447159cd1bf0385025d5ba63cc4bcb8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>resgate - forma de pagamento</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senha - segunda via</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>103</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>547159cd1bf0385025d5ba63cc4bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>senha - segunda via</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SIBET</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>104</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>547159cd1bf0385025d5ba63cc4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:44</sys_updated_on>
+            <value>sibet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utilização indevida de bens e recursos da PREVI</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>105</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>547159cd1bf0385025d5ba63cc4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:45</sys_updated_on>
+            <value>utilização indevida de bens e recursos da previ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utilização indevida de informações privilegiadas</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>106</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>547159cd1bf0385025d5ba63cc4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:45</sys_updated_on>
+            <value>utilização indevida de informações privilegiadas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tema_demanda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Violação de Políticas Internas</label>
+            <language>en</language>
+            <name>x_snc_ouvir_caso</name>
+            <sequence>107</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 14:48:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>547159cd1bf0385025d5ba63cc4bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 14:48:45</sys_updated_on>
+            <value>violação de políticas internas</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

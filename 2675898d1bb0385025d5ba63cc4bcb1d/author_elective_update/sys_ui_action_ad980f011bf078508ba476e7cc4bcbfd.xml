@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>Show Workflow</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>new Workflow().hasWorkflow(current)</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Show Workflow</name>
+        <onclick>showWorkflowContext()</onclick>
+        <order>200</order>
+        <script><![CDATA[// Show the workflow context in a new window
+function showWorkflowContext() {
+   var id = $F('sys_uniqueValue');
+   var url = 'context_workflow.do?sysparm_stack=no&sysparm_table=task_sla&sysparm_document=' + id;
+   g_navigation.open(url, '_blank');
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 23:30:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad980f011bf078508ba476e7cc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name>sys_ui_action_ad980f011bf078508ba476e7cc4bcbfd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 23:30:17</sys_updated_on>
+        <table>x_snc_ouvir_caso</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</application>
+        <file_path/>
+        <instance_id>e9ee306ddb487050601a11f848961918</instance_id>
+        <instance_name>previdemo</instance_name>
+        <name>sys_ui_action_ad980f011bf078508ba476e7cc4bcbfd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;Show Workflow&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;new Workflow().hasWorkflow(current)&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;true&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Show Workflow&lt;/name&gt;&lt;onclick&gt;showWorkflowContext()&lt;/onclick&gt;&lt;order&gt;200&lt;/order&gt;&lt;script&gt;&lt;![CDATA[// Show the workflow context in a new window
+function showWorkflowContext() {
+   var id = $F('sys_uniqueValue');
+   var url = 'context_workflow.do?sysparm_stack=no&amp;sysparm_table=task_sla&amp;sysparm_document=' + id;
+   g_navigation.open(url, '_blank');
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-15 23:30:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ad980f011bf078508ba476e7cc4bcbfd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show Workflow&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Ouvir" source="x_snc_ouvir"&gt;2675898d1bb0385025d5ba63cc4bcb1d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Ouvir"&gt;2675898d1bb0385025d5ba63cc4bcb1d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_ad980f011bf078508ba476e7cc4bcbfd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-15 23:30:17&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_ouvir_caso&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-743422282</payload_hash>
+        <record_name>Show Workflow</record_name>
+        <reverted_from/>
+        <source>2275898d1bb0385025d5ba63cc4bcb20</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 23:30:17</sys_created_on>
+        <sys_id>b3c8c3411bf078508ba476e7cc4bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a1202e4f70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 23:30:17</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>bbc8c34100f07850a5e8c07e84fa1a36</update_guid>
+        <update_guid_history>bbc8c34100f07850a5e8c07e84fa1a36:-743422282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 23:34:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>616d3b66aad949399b6cc554c01fde31</sys_id>
+        <sys_metadata>ad980f011bf078508ba476e7cc4bcbfd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Workflow</sys_name>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_parent display_value="Caso de Ouvidoria">2006c5cd1bb0385025d5ba63cc4bcb06</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_scope_delete display_value="">9cee73a325454b858227a12ea41b5b01</sys_scope_delete>
+        <sys_update_name>sys_ui_action_ad980f011bf078508ba476e7cc4bcbfd</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_ad980f011bf078508ba476e7cc4bcbfd">b3c8c3411bf078508ba476e7cc4bcb37</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 23:34:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" extends="task" label="Caso de Ouvidoria" max_length="40" name="x_snc_ouvir_caso" sizeclass="9" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="solicitou devolutiva" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Estágio" max_length="40" name="u_estagio" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Novo" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Em Análise" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Coleta de Informações" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Revisão" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Aprovação" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Concluido" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element label="Manifestação" max_length="65536" name="u_manifestao" type="html"/>
+        <element label="Parecer da instância validadora" max_length="65536" name="u_parecer" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Pessoa Politicamente Exposta" max_length="40" name="u_pessoa_politicamente_exposta" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="É possivel tratar a demanda ?" max_length="40" name="u_possivel_tratar_demanda" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Protocolo de Atendimento" max_length="32" name="u_protoloco_atendimento" reference="sn_customerservice_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Escopo da Demanda" max_length="40" name="u_publico" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Interno" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Externo" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Resposta" max_length="65536" name="u_resposta" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Risco Financeiro" max_length="40" name="u_risco_financeiro" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Risco de Imagem" max_length="40" name="u_risco_imagem" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Solicitados" max_length="1024" name="u_solicitados" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tema da Demanda" max_length="40" name="u_tema_demanda" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Aposentadoria - cancelamento do benefício Previ" sequence="0" value="aposentadoria - cancelamento do benefício previ"/>
+                <element inactive_on_update="false" label="Aposentadoria - concessão" sequence="1" value="aposentadoria - concessão"/>
+                <element inactive_on_update="false" label="Aposentadoria - manutenção" sequence="2" value="aposentadoria - manutenção"/>
+                <element inactive_on_update="false" label="Aposentadoria - reajuste" sequence="3" value="aposentadoria - reajuste"/>
+                <element inactive_on_update="false" label="Aposentadoria - revisão de benefício" sequence="4" value="aposentadoria - revisão de benefício"/>
+                <element inactive_on_update="false" label="Aposentadoria - simulação de valor" sequence="5" value="aposentadoria - simulação de valor"/>
+                <element inactive_on_update="false" label="Assédio  Moral" sequence="6" value="assédio  moral"/>
+                <element inactive_on_update="false" label="Assédio  Sexual" sequence="7" value="assédio  sexual"/>
+                <element inactive_on_update="false" label="Atendimento - demora na resposta" sequence="8" value="atendimento - demora na resposta"/>
+                <element inactive_on_update="false" label="Atendimento - não consegue contato" sequence="9" value="atendimento - não consegue contato"/>
+                <element inactive_on_update="false" label="Atendimento - qualidade do atendimento recebido" sequence="10" value="atendimento - qualidade do atendimento recebido"/>
+                <element inactive_on_update="false" label="Atendimento - tempo de espera telefônica" sequence="11" value="atendimento - tempo de espera telefônica"/>
+                <element inactive_on_update="false" label="Atualização Cadastral" sequence="12" value="atualização cadastral"/>
+                <element inactive_on_update="false" label="Autoatendimento - dificuldade na navegação" sequence="13" value="autoatendimento - dificuldade na navegação"/>
+                <element inactive_on_update="false" label="Autoatendimento - inoperância" sequence="14" value="autoatendimento - inoperância"/>
+                <element inactive_on_update="false" label="Benefício Especial de Renda Certa" sequence="15" value="benefício especial de renda certa"/>
+                <element inactive_on_update="false" label="BET" sequence="16" value="bet"/>
+                <element inactive_on_update="false" label="CAPEC - demora no pagamento" sequence="17" value="capec - demora no pagamento"/>
+                <element inactive_on_update="false" label="CAPEC - documentação" sequence="18" value="capec - documentação"/>
+                <element inactive_on_update="false" label="CAPEC - outros" sequence="19" value="capec - outros"/>
+                <element inactive_on_update="false" label="CAPEC - situação do processo" sequence="20" value="capec - situação do processo"/>
+                <element inactive_on_update="false" label="Cartão PREVI" sequence="21" value="cartão previ"/>
+                <element inactive_on_update="false" label="CASSI" sequence="22" value="cassi"/>
+                <element inactive_on_update="false" label="Cesta Alimentação" sequence="23" value="cesta alimentação"/>
+                <element inactive_on_update="false" label="Clube de Benefícios" sequence="24" value="clube de benefícios"/>
+                <element inactive_on_update="false" label="Comunicação Institucional" sequence="25" value="comunicação institucional"/>
+                <element inactive_on_update="false" label="Conduta Inadequada" sequence="26" value="conduta inadequada"/>
+                <element inactive_on_update="false" label="Contribuição" sequence="27" value="contribuição"/>
+                <element inactive_on_update="false" label="Convênio INSS - Cancelamento benefício INSS" sequence="28" value="convênio inss - cancelamento benefício inss"/>
+                <element inactive_on_update="false" label="Convênio INSS - Concessão de  benefício INSS" sequence="29" value="convênio inss - concessão de  benefício inss"/>
+                <element inactive_on_update="false" label="Dívida - Empréstimo Simples" sequence="31" value="dívida - empréstimo simples"/>
+                <element inactive_on_update="false" label="Dívida - Financiamento Imobiliário" sequence="32" value="dívida - financiamento imobiliário"/>
+                <element inactive_on_update="false" label="Dívida - saldo devedor de falecido" sequence="33" value="dívida - saldo devedor de falecido"/>
+                <element inactive_on_update="false" label="Dívida Previdenciária" sequence="34" value="dívida previdenciária"/>
+                <element inactive_on_update="false" label="Empresa Participada" sequence="35" value="empresa participada"/>
+                <element inactive_on_update="false" label="Empréstimo Simples -  teto" sequence="36" value="empréstimo simples -  teto"/>
+                <element inactive_on_update="false" label="Empréstimo Simples - amortização" sequence="37" value="empréstimo simples - amortização"/>
+                <element inactive_on_update="false" label="Empréstimo Simples - cancelamento" sequence="38" value="empréstimo simples - cancelamento"/>
+                <element inactive_on_update="false" label="Empréstimo Simples - cobrança" sequence="39" value="empréstimo simples - cobrança"/>
+                <element inactive_on_update="false" label="Empréstimo Simples - contratação" sequence="40" value="empréstimo simples - contratação"/>
+                <element inactive_on_update="false" label="Empréstimo Simples - devolução da prestação" sequence="41" value="empréstimo simples - devolução da prestação"/>
+                <element inactive_on_update="false" label="Empréstimo Simples - evolução do saldo" sequence="42" value="empréstimo simples - evolução do saldo"/>
+                <element inactive_on_update="false" label="Empréstimo Simples - liquidação" sequence="43" value="empréstimo simples - liquidação"/>
+                <element inactive_on_update="false" label="Empréstimo Simples - margem" sequence="44" value="empréstimo simples - margem"/>
+                <element inactive_on_update="false" label="Empréstimo Simples - renovação" sequence="45" value="empréstimo simples - renovação"/>
+                <element inactive_on_update="false" label="Empréstimo Simples - repactuação" sequence="46" value="empréstimo simples - repactuação"/>
+                <element inactive_on_update="false" label="Empréstimo Simples - suspensão da cobrança" sequence="47" value="empréstimo simples - suspensão da cobrança"/>
+                <element inactive_on_update="false" label="Escritório Terceirizado" sequence="48" value="escritório terceirizado"/>
+                <element inactive_on_update="false" label="Falha Operacional" sequence="49" value="falha operacional"/>
+                <element inactive_on_update="false" label="Favorecimento de fornecedores" sequence="50" value="favorecimento de fornecedores"/>
+                <element inactive_on_update="false" label="Financiamento Imobiliário - atuação Athos" sequence="51" value="financiamento imobiliário - atuação athos"/>
+                <element inactive_on_update="false" label="Financiamento Imobiliário - baixa de hipoteca" sequence="52" value="financiamento imobiliário - baixa de hipoteca"/>
+                <element inactive_on_update="false" label="Financiamento Imobiliário - cobrança" sequence="53" value="financiamento imobiliário - cobrança"/>
+                <element inactive_on_update="false" label="Financiamento Imobiliário - contratação" sequence="54" value="financiamento imobiliário - contratação"/>
+                <element inactive_on_update="false" label="Financiamento Imobiliário - evolução/ devolução de prestação" sequence="55" value="financiamento imobiliário - evolução/ devolução de prestação"/>
+                <element inactive_on_update="false" label="Financiamento Imobiliário - liquidação" sequence="56" value="financiamento imobiliário - liquidação"/>
+                <element inactive_on_update="false" label="Financiamento Imobiliário - repactuação" sequence="57" value="financiamento imobiliário - repactuação"/>
+                <element inactive_on_update="false" label="Financiamento Imobiliário - seguro" sequence="58" value="financiamento imobiliário - seguro"/>
+                <element inactive_on_update="false" label="Fopag - consignação" sequence="59" value="fopag - consignação"/>
+                <element inactive_on_update="false" label="Fopag - contracheque" sequence="60" value="fopag - contracheque"/>
+                <element inactive_on_update="false" label="Fopag - créditos" sequence="61" value="fopag - créditos"/>
+                <element inactive_on_update="false" label="Fopag - outros" sequence="62" value="fopag - outros"/>
+                <element inactive_on_update="false" label="Fraude Contábil" sequence="63" value="fraude contábil"/>
+                <element inactive_on_update="false" label="Fraude Operacional" sequence="64" value="fraude operacional"/>
+                <element inactive_on_update="false" label="Funci -  processo seletivo" sequence="65" value="funci -  processo seletivo"/>
+                <element inactive_on_update="false" label="Funci - avaliação de desempenho" sequence="66" value="funci - avaliação de desempenho"/>
+                <element inactive_on_update="false" label="Funci - bolsa de estudos" sequence="67" value="funci - bolsa de estudos"/>
+                <element inactive_on_update="false" label="Funci - capacitação" sequence="68" value="funci - capacitação"/>
+                <element inactive_on_update="false" label="Funci - jornada de trabalho" sequence="69" value="funci - jornada de trabalho"/>
+                <element inactive_on_update="false" label="Imposto de Renda" sequence="70" value="imposto de renda"/>
+                <element inactive_on_update="false" label="Inadimplência - Empréstimo Simples" sequence="71" value="inadimplência - empréstimo simples"/>
+                <element inactive_on_update="false" label="Inadimplência - Financiamento Imobiliário" sequence="72" value="inadimplência - financiamento imobiliário"/>
+                <element inactive_on_update="false" label="Insatisfação com as Regras e Políticas da Previ" sequence="73" value="insatisfação com as regras e políticas da previ"/>
+                <element inactive_on_update="false" label="Investimento" sequence="74" value="investimento"/>
+                <element inactive_on_update="false" label="Opções de desligamento" sequence="75" value="opções de desligamento"/>
+                <element inactive_on_update="false" label="Outros" sequence="76" value="outros"/>
+                <element inactive_on_update="false" label="Ouvidoria" sequence="77" value="ouvidoria"/>
+                <element inactive_on_update="false" label="Pagamentos ou recebimentos impróprios" sequence="78" value="pagamentos ou recebimentos impróprios"/>
+                <element inactive_on_update="false" label="Pensão - cancelamento do benefício Previ" sequence="79" value="pensão - cancelamento do benefício previ"/>
+                <element inactive_on_update="false" label="Pensão - concessão" sequence="80" value="pensão - concessão"/>
+                <element inactive_on_update="false" label="Pensão - revisão de benefício" sequence="81" value="pensão - revisão de benefício"/>
+                <element inactive_on_update="false" label="Pensão - situação do processo" sequence="82" value="pensão - situação do processo"/>
+                <element inactive_on_update="false" label="Pensão Alimentícia" sequence="83" value="pensão alimentícia"/>
+                <element inactive_on_update="false" label="Portabilidade" sequence="84" value="portabilidade"/>
+                <element inactive_on_update="false" label="Preservação do nível de contribuição" sequence="85" value="preservação do nível de contribuição"/>
+                <element inactive_on_update="false" label="Previ Familia - atualização cadastral" sequence="86" value="previ familia - atualização cadastral"/>
+                <element inactive_on_update="false" label="Previ Família - cobrança" sequence="87" value="previ família - cobrança"/>
+                <element inactive_on_update="false" label="Previ Família - contratação" sequence="88" value="previ família - contratação"/>
+                <element inactive_on_update="false" label="Previ Família - extrato" sequence="89" value="previ família - extrato"/>
+                <element inactive_on_update="false" label="Previ Família - outros" sequence="90" value="previ família - outros"/>
+                <element inactive_on_update="false" label="Previ Família - perfis de investimento" sequence="91" value="previ família - perfis de investimento"/>
+                <element inactive_on_update="false" label="Previ Futuro - perfis de investimento" sequence="92" value="previ futuro - perfis de investimento"/>
+                <element inactive_on_update="false" label="Processo de Seleção de Conselheiros" sequence="93" value="processo de seleção de conselheiros"/>
+                <element inactive_on_update="false" label="Processo eleitoral Previ" sequence="94" value="processo eleitoral previ"/>
+                <element inactive_on_update="false" label="Quebra de dados ou informações confidenciais" sequence="95" value="quebra de dados ou informações confidenciais"/>
+                <element inactive_on_update="false" label="Recadastramento" sequence="96" value="recadastramento"/>
+                <element inactive_on_update="false" label="Reclamatória Trabalhista" sequence="97" value="reclamatória trabalhista"/>
+                <element inactive_on_update="false" label="Regime de Tributação" sequence="98" value="regime de tributação"/>
+                <element inactive_on_update="false" label="Reingresso" sequence="99" value="reingresso"/>
+                <element inactive_on_update="false" label="Reserva" sequence="100" value="reserva"/>
+                <element inactive_on_update="false" label="Resgate" sequence="101" value="resgate"/>
+                <element inactive_on_update="false" label="Resgate - forma de pagamento" sequence="102" value="resgate - forma de pagamento"/>
+                <element inactive_on_update="false" label="Senha - segunda via" sequence="103" value="senha - segunda via"/>
+                <element inactive_on_update="false" label="SIBET" sequence="104" value="sibet"/>
+                <element inactive_on_update="false" label="Utilização indevida de bens e recursos da PREVI" sequence="105" value="utilização indevida de bens e recursos da previ"/>
+                <element inactive_on_update="false" label="Utilização indevida de informações privilegiadas" sequence="106" value="utilização indevida de informações privilegiadas"/>
+                <element inactive_on_update="false" label="Violação de Políticas Internas" sequence="107" value="violação de políticas internas"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tipo da Demanda" max_length="40" name="u_tipo_demanda" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Denúncia" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Reclamação 2a. Instância" sequence="1" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>

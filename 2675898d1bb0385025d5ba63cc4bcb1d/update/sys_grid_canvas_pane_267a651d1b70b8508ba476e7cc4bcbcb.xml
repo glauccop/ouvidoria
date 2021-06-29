@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Ouvidoria - New Tab">856a611d1b70b8508ba476e7cc4bcb40</grid_canvas>
+        <height>9</height>
+        <portal_widget display_value="Created 16/06/2021 08:16:36">227a651d1b70b8508ba476e7cc4bcbc8</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 11:16:37</sys_created_on>
+        <sys_id>267a651d1b70b8508ba476e7cc4bcbcb</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>856a611d1b70b8508ba476e7cc4bcb40</sys_name>
+        <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_267a651d1b70b8508ba476e7cc4bcbcb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 11:47:47</sys_updated_on>
+        <width>2</width>
+    </sys_grid_canvas_pane>
+</record_update>
