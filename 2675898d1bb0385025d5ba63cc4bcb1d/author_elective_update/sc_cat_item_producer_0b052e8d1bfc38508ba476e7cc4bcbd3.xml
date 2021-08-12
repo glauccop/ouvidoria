@@ -116,7 +116,7 @@
         <update_guid_history>76baffcd11f4785005f61287649b40bf:1873048453,5ab5ae01af307850fb97674f8d94c275:882920037,6b05aacde2fc385009f166c8d9aad70e:-121806006,d3056acd7bfc3850038c5fa90ac45cce:1956331455</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Fale com a Ouvidoria">2bba33011b3878508ba476e7cc4bcb2d</sys_audit_delete>
+        <sys_audit_delete display_value="">2bba33011b3878508ba476e7cc4bcb2d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-16 03:08:26</sys_created_on>
@@ -126,7 +126,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Fale com a Ouvidoria</sys_name>
         <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
-        <sys_parent display_value="Caso de Ouvidoria">2006c5cd1bb0385025d5ba63cc4bcb06</sys_parent>
+        <sys_parent display_value="">2006c5cd1bb0385025d5ba63cc4bcb06</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
         <sys_scope_delete display_value="">9cee73a325454b858227a12ea41b5b01</sys_scope_delete>

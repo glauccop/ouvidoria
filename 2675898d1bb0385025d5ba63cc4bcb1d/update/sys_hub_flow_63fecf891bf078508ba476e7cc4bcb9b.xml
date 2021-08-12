@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>63fecf891bf078508ba476e7cc4bcb9b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Ouvidoria-Criticidade</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
         <sys_update_name>sys_hub_flow_63fecf891bf078508ba476e7cc4bcb9b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-16 00:13:13</sys_updated_on>
+        <sys_updated_on>2021-08-12 19:32:26</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=63fecf891bf078508ba476e7cc4bcb9b"/>
@@ -157,6 +157,7 @@
         <value>x_snc_ouvir_caso</value>
         <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=c42257cd1bf078508ba476e7cc4bcba4"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=63fecf891bf078508ba476e7cc4bcb9b^sys_idNOT INebfecf891bf078508ba476e7cc4bcb9c"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>63fecf891bf078508ba476e7cc4bcb9b</id>
@@ -900,11 +901,11 @@
         <sys_created_on>2021-06-16 00:10:58</sys_created_on>
         <sys_id>442257cd1bf078508ba476e7cc4bcb94</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_63fecf891bf078508ba476e7cc4bcb9b_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-16 00:10:58</sys_updated_on>
         <url/>
@@ -923,11 +924,11 @@
         <sys_created_on>2021-06-16 00:10:58</sys_created_on>
         <sys_id>771257cd1bf078508ba476e7cc4bcb61</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_63fecf891bf078508ba476e7cc4bcb9b_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-16 00:10:58</sys_updated_on>
         <url/>
@@ -946,11 +947,11 @@
         <sys_created_on>2021-06-16 00:10:58</sys_created_on>
         <sys_id>882257cd1bf078508ba476e7cc4bcb8d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_63fecf891bf078508ba476e7cc4bcb9b_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-16 00:10:58</sys_updated_on>
         <url/>
@@ -1077,6 +1078,7 @@
         <value>x_snc_ouvir_caso</value>
         <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=529293011b3478508ba476e7cc4bcba6"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=d59253011b3478508ba476e7cc4bcb6c^sys_idNOT INd99253011b3478508ba476e7cc4bcb6d"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>d59253011b3478508ba476e7cc4bcb6c</id>
@@ -1820,11 +1822,11 @@
         <sys_created_on>2021-06-16 00:13:00</sys_created_on>
         <sys_id>619253011b3478508ba476e7cc4bcbf7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d59253011b3478508ba476e7cc4bcb6c_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-16 00:13:00</sys_updated_on>
         <url/>
@@ -1843,11 +1845,11 @@
         <sys_created_on>2021-06-16 00:13:00</sys_created_on>
         <sys_id>6d9293011b3478508ba476e7cc4bcb02</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d59253011b3478508ba476e7cc4bcb6c_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-16 00:13:00</sys_updated_on>
         <url/>
@@ -1866,11 +1868,11 @@
         <sys_created_on>2021-06-16 00:13:01</sys_created_on>
         <sys_id>f19293011b3478508ba476e7cc4bcb27</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d59253011b3478508ba476e7cc4bcb6c_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-16 00:13:01</sys_updated_on>
         <url/>

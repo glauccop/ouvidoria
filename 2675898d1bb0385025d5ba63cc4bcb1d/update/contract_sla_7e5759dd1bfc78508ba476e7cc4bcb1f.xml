@@ -20,6 +20,7 @@
         <schedule/>
         <schedule_source>no_schedule</schedule_source>
         <schedule_source_field/>
+        <service_commitment>false</service_commitment>
         <set_start_to>work_end</set_start_to>
         <start_condition table="task">active=true^short_description=Você tem uma atividade de ouvidoria para responder^assigned_toISNOTEMPTY^state=1^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="short_description" goto="false" newquery="false" operator="=" or="false" value="Você tem uma atividade de ouvidoria para responder"/>

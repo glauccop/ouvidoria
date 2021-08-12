@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sn_customerservice_case">sn_customerservice_case</reference>
+        <reference display_value="">sn_customerservice_case</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-15 15:43:18</sys_created_on>
-        <sys_id>93edd9411b74385025d5ba63cc4bcbbc</sys_id>
+        <sys_id>758e34f71b31301096d6ec21604bcb5f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Protocolo de Atendimento</sys_name>
         <sys_package display_value="Ouvir" source="x_snc_ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="Ouvir">2675898d1bb0385025d5ba63cc4bcb1d</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_ouvir_caso_u_protoloco_atendimento</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-15 15:43:18</sys_updated_on>
+        <sys_updated_on>2021-08-12 19:32:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

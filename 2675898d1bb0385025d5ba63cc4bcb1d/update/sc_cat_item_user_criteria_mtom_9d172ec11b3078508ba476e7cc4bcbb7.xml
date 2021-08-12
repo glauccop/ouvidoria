@@ -13,6 +13,6 @@
         <sys_update_name>sc_cat_item_user_criteria_mtom_9d172ec11b3078508ba476e7cc4bcbb7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-15 21:02:55</sys_updated_on>
-        <user_criteria display_value="Users with 'sn_customerservice.customer' role">ceada52177a000102bc4914f58106106</user_criteria>
+        <user_criteria display_value="">ceada52177a000102bc4914f58106106</user_criteria>
     </sc_cat_item_user_criteria_mtom>
 </record_update>

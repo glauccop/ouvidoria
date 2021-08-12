@@ -45,7 +45,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>ouvidoria.png</file_name>
         <hash>0c99caaeb89052834edcfb48951aaa07eb5e716fa8d4bf13feb4d2cbcd5714f9</hash>
         <image_height/>

@@ -41,7 +41,7 @@
         <update_guid_history>9f056acd2ffc3850c7e3cfc818f12dc7:361300425</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Customer Service.Fale com a Ouvidoria">36ba7fcd1bf478508ba476e7cc4bcbbe</sys_audit_delete>
+        <sys_audit_delete display_value="">36ba7fcd1bf478508ba476e7cc4bcbbe</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-16 03:08:23</sys_created_on>

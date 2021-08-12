@@ -22,6 +22,7 @@
         <schedule/>
         <schedule_source>no_schedule</schedule_source>
         <schedule_source_field/>
+        <service_commitment>false</service_commitment>
         <set_start_to>work_end</set_start_to>
         <start_condition table="x_snc_ouvir_caso">active=true^u_estagio=4^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item display_value="Revisão" endquery="false" field="u_estagio" goto="false" newquery="false" operator="=" or="false" value="4"/>

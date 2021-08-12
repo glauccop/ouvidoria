@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="6cf629d51b70b8508ba476e7cc4bcbc2">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
+            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="34ae703b1b31301096d6ec21604bcbb7">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>priority</element>
-            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="6cf629d51b70b8508ba476e7cc4bcbc2">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
+            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="34ae703b1b31301096d6ec21604bcbb7">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="6cf629d51b70b8508ba476e7cc4bcbc2">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
+            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="34ae703b1b31301096d6ec21604bcbb7">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_tema_demanda</element>
-            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="6cf629d51b70b8508ba476e7cc4bcbc2">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
+            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="34ae703b1b31301096d6ec21604bcbb7">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_publico</element>
-            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="6cf629d51b70b8508ba476e7cc4bcbc2">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
+            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="34ae703b1b31301096d6ec21604bcbb7">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_tipo_demanda</element>
-            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="6cf629d51b70b8508ba476e7cc4bcbc2">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
+            <list_id display_value="x_snc_ouvir_caso" element="NULL" name="x_snc_ouvir_caso" parent="NULL" relationship="NULL" sys_domain="global" view="34ae703b1b31301096d6ec21604bcbb7">2cf629d51b70b8508ba476e7cc4bcbc3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -115,7 +115,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-06-16 11:01:12</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpte4f629d51b70b8508ba476e7cc4bcbbd" name="RPTe4f629d51b70b8508ba476e7cc4bcbbd">6cf629d51b70b8508ba476e7cc4bcbc2</view>
+            <view display_value="Rpte4f629d51b70b8508ba476e7cc4bcbbd" name="RPTe4f629d51b70b8508ba476e7cc4bcbbd">34ae703b1b31301096d6ec21604bcbb7</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
